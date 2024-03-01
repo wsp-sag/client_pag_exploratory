@@ -1,20 +1,18 @@
-Macro "MOVES_input"
+Macro "MOVES_input" (projectFolder, outputFolder, iteration)
 	RunMacro("TCB Init")
 	
 	//************* place to make changes ********************************************
-	projectFolder="C:\\Users\\RyanH\\Desktop\\2023D2023S_TC7_20230215\\"
-	outputFolder="C:\\Users\\RyanH\\Desktop\\2023D2023S_TC7_20230215\\outputs\\MOVES\\"
 	//********************************************************************************
 	
 	timePeriods = {"AM","MD","PM","NT"}
 	directions={"AB","BA"}
 	
-	sceOutputFolder = projectFolder+"outputs\\"
+	sceOutputFolder = projectFolder+"output\\"
 	outputFileVMT = outputFolder +"input_TDM_VMT.csv"
 	outputFileVHT = outputFolder +"input_TDM_VHT.csv"
 	
 	//sub_roadway for ID, ATYPE, AB (and BA) LINKCASS
-	rdFileName = projectFolder +"highway\\sub_roadway.dbd"
+	rdFileName = projectFolder +"highway\\roadway.dbd"
 	{node_lyr, link_lyr} = RunMacro("TCB Add DB Layers", rdFileName,,)
 	//ok = (node_lyr <> null & link_lyr <> null)  
 	//if !ok then goto quit
@@ -23,12 +21,12 @@ Macro "MOVES_input"
 	vecVMTandSpeedAll=null
 	for k=1 to timePeriods.length do
 		
-		binFileName="Sub_"+timePeriods[k]+"_Flow.bin"
+		binFileName="hwyload_"+timePeriods[k]+itration+".bin"
 		vwTODSubFlows=OpenTable("TOD sub_flows", "FFB", {sceOutputFolder+binFileName,})
 		vwJoin=JoinViews("Sub_roadway Flow", link_lyr + ".ID", vwTODSubFlows + ".ID1",)
-		
+		 
 		if k=1 then do
-			vecLinkClass=GetDataVectors(vwJoin+"|",{"ID1","Length","ATYPE","[AB LINKCLASS]","[BA LINKCLASS]"},{{"Sort Order",{{"ID1", "Ascending"}}},{"Column Based","True"},{"Missing as Zero","True"}})
+			vecLinkClass=GetDataVectors(vwJoin+"|",{"ID1","Length","AT","[AB LINKCLASS]","[BA LINKCLASS]"},{{"Sort Order",{{"ID1", "Ascending"}}},{"Column Based","True"},{"Missing as Zero","True"}})
 		end
 		
 		vecVMTandSpeed=GetDataVectors(vwJoin+"|",{"AB_VMT","BA_VMT",vwTODSubFlows+".AB_Speed",vwTODSubFlows+".BA_Speed"},{{"Sort Order",{{"ID1", "Ascending"}}},{"Column Based","True"},{"Missing as Zero","True"}})
@@ -135,3 +133,7 @@ Macro "MOVES_input"
 		ShowMessage("inputs for MOVES: Finshed Succesfully!!"+ "\n" + "input_TDM_VMT.csv and input_TDM_VHT.csv")
 
 endMacro
+	
+	
+	
+	
