@@ -29,13 +29,13 @@ vht_SrcRdType_Hour_SpdBinVec=[] # output format
 def readInputs():
     print("##### read inputs")
     
-    strInputTDMvht="input_TDM_VHT.csv"
-    strInputSpdBins="input_speedBins.csv"
-    strInputSrcUseType="input_sourceUseType.csv"
-    strInputRdType="input_roadTypes.csv"
-    strInputRDTypeDist="input_roadTypeDistribution.csv"
-    strInputHrDay="input_hourDay.csv"
-    strInputTripsByHr="input_tripsByHour.csv"
+    strInputTDMvht="../data/interim/input_TDM_VHT.csv"
+    strInputSpdBins="../data/external/MOVES/other/input_speedBins.csv"
+    strInputSrcUseType="../data/external/MOVES/other/input_sourceUseType.csv"
+    strInputRdType="../data/external/MOVES/other/input_roadTypes.csv"
+    strInputRDTypeDist="../data/interim/input_roadTypeDistribution.csv"
+    strInputHrDay="../data/external/MOVES/other/input_hourDay.csv"
+    strInputTripsByHr="../data/external/MOVES/other/input_tripsByHour.csv"
     
     
     #input_tripsByHour.csv: HR,TOD,Trips_All,Proportion,ProportionTOD
@@ -298,7 +298,7 @@ def calcVHTratioBySpeed(vht_RdType_TOD_SpdBinVec):
     tmpSumBySpeedBin.reverse()
     
     """ output """
-    fileout = open('output_VHTbySpeedBin.csv','w')
+    fileout = open('../data/interim/output_VHTbySpeedBin.csv','w')
     fileout.write("sourceTypeID,roadTypeID,hourDayID,avgSpeedBinID,avgSpeedFraction")
     fileout.write("\n")
     

@@ -3,10 +3,11 @@ MOVES input from TDM, MOVES' national default, ADOT veh reg.
 Created on Mar 16, 2016
 @author: hyunsooN
 '''
-
+import os
 import csv, sys
 import numpy as np
 import VMTratiobySpeed
+import pandas as pd
 
 #global
 """+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"""
@@ -43,14 +44,14 @@ outputVMTdic={"TDMvmt":0, "VMTadjFactor":0}
 
 def readInputs_1():
     print("##### read inputs")
-    
-    strInputADOTvehReg="input_MOVES_ADOT_vehReg.csv"
-    strInputNatlDef_base="input_MOVES_natlDef_base.csv"
-    strInputNatlDef_fcst="input_MOVES_natlDef_forecast.csv"
-    strInputTDMvht="input_TDM_VHT.csv"
-    strInputTDMvmt="input_TDM_VMT.csv"
-    
-    fileout = open('output_MOVES_parameters.csv','w')
+
+    strInputADOTvehReg="../data/external/MOVES/vehicle_population/input_MOVES_ADOT_vehReg.csv"
+    strInputNatlDef_base="../data/external/MOVES/MOVES_PimaCounty_default/input_MOVES_natlDef_base.csv"
+    strInputNatlDef_fcst="../data/external/MOVES/MOVES_PimaCounty_default/input_MOVES_natlDef_forecast.csv"
+    strInputTDMvht="../data/interim/input_TDM_VHT.csv"
+    strInputTDMvmt="../data/interim/input_TDM_VMT.csv"
+
+    fileout = open('../data/interim/output_MOVES_parameters.csv','w')
     
     #input_TDM_VHT.csv: County,Year,LDV_Gas,LDV_Diesel,LDT_Gas_Tk1,LDT_Gas_Tk2,LDT_Diesel,HDV_Gas,HDV_Diesel,Bus_Gas,Bus_Diesel,Motorcycles,Alternate_Fuels
     input_fileout=open(strInputADOTvehReg)
@@ -403,7 +404,7 @@ def roadTypeVMTfraction(src_rd_VMT_matrix_forecast):
             marginal_src_vmt[i] += src_rd_VMT_matrix_operation[i,j]
     
     # write source-road type distribution table for MOVES input
-    fileout = open('input_roadTypeDistribution.csv','w')
+    fileout = open('../data/interim/input_roadTypeDistribution.csv','w')
     fileout.write("sourceTypeID,roadTypeID,roadTypeVMTFraction")
     fileout.write("\n")
     rdTypeOrder=[2,3,4,5]
@@ -434,7 +435,7 @@ def roadTypeVMTfraction(src_rd_VMT_matrix_forecast):
                 
     fileout.close()
     
-    fileout2 = open('output_roadTypeDistribution.csv','w')
+    fileout2 = open('../data/interim/output_roadTypeDistribution.csv','w')
     fileout2.write("sourceTypeID,roadTypeID,roadTypeVMTFraction")
     fileout2.write("\n")
     for i in range(len(aggSourceTypeOrderDic)):
@@ -454,7 +455,7 @@ def roadTypeVMTfraction(src_rd_VMT_matrix_forecast):
 def annual_VMT_by_sourceType():
     
     annual_VMT= outputVMTdic["TDMvmt"]*input_daily_to_year*outputVMTdic["VMTadjFactor"]
-    fileout = open('output_annualVMTbySrcType.csv','w')
+    fileout = open('../data/interim/output_annualVMTbySrcType.csv','w')
     
     outputVec=["","","","",""]
     for key in vmt_srcType_fraction:
