@@ -6,13 +6,12 @@ Macro "MOVES_input" (projectFolder, outputFolder, iteration)
 	
 	timePeriods = {"AM","MD","PM","NT"}
 	directions={"AB","BA"}
-	
-	sceOutputFolder = projectFolder+"output\\"
-	outputFileVMT = outputFolder +"input_TDM_VMT.csv"
-	outputFileVHT = outputFolder +"input_TDM_VHT.csv"
+	sceOutputFolder = projectFolder +"\\output\\"
+	outputFileVMT = outputFolder  +"\\input_TDM_VMT.csv"
+	outputFileVHT = outputFolder  +"\\input_TDM_VHT.csv"
 	
 	//sub_roadway for ID, ATYPE, AB (and BA) LINKCASS
-	rdFileName = projectFolder +"highway\\roadway.dbd"
+	rdFileName = projectFolder +"\\highway\\roadway.dbd"
 	{node_lyr, link_lyr} = RunMacro("TCB Add DB Layers", rdFileName,,)
 	//ok = (node_lyr <> null & link_lyr <> null)  
 	//if !ok then goto quit
@@ -21,7 +20,7 @@ Macro "MOVES_input" (projectFolder, outputFolder, iteration)
 	vecVMTandSpeedAll=null
 	for k=1 to timePeriods.length do
 		
-		binFileName="hwyload_"+timePeriods[k]+itration+".bin"
+		binFileName="hwyload_"+timePeriods[k]+iteration+".bin"
 		vwTODSubFlows=OpenTable("TOD sub_flows", "FFB", {sceOutputFolder+binFileName,})
 		vwJoin=JoinViews("Sub_roadway Flow", link_lyr + ".ID", vwTODSubFlows + ".ID1",)
 		 
