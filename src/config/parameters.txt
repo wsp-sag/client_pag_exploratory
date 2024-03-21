@@ -1,0 +1,23 @@
+YEAR
+2035
+
+DESCRIPTION (enter all text on a single line)
+Test run on PAG 531 for MOVES 4 automation development for all criteria pollutants (CO, CO2e, NOx, PM2.5, PM10, VOC) for Pima County, AZ, for 2035 with output emissions by source type, month, and day type with IM input data that former PAG air quality manager Susanne Cotty left for successor
+
+INPUT EXCEL FILE PATH (no spaces in folder or file names; use / and not \; should end with '.xlsx')
+C:/Users/ryanh/Desktop/MOVES4_control/2035_MOVES4_test07_in_20240110.xlsx
+
+INPUT DATABASE NAME (no spaces)
+2035_moves4_test07_in_20240110
+
+OUTPUT DATABASE NAME (no spaces)
+2035_moves4_test07_out_20240110
+
+OUTPUT MRS FILE PATH (no spaces in folder or file names; use / and not \; should end with '.mrs')
+C:/Users/ryanh/Desktop/MOVES4_control/2035_moves4_test07_20240110.mrs
+
+OUTPUT XML FILE PATH (no spaces in folder or file names; use / and not \; should end with '.xml')
+C:/Users/ryanh/Desktop/MOVES4_control/2035_moves4_test07_20240110.xml
+
+OUTPUT EMISSIONS CSV FILE PATH (no spaces in folder or file names; use / and not \; should end with '.csv')
+C:/Users/ryanh/Desktop/MOVES4_control/output/2035_moves4_test07_emissions_20240110.csv
