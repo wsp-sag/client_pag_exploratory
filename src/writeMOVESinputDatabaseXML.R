@@ -1,9 +1,15 @@
+list.of.packages <- c("cli", "purrr", "pillar", "readr")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages, repos = "http://cran.us.r-project.org", dependencies = TRUE)
 library(readr)
-parameters <- read_lines('C:/Users/ryanh/Desktop/MOVES4_control/parameters.txt', skip_empty_rows = T)
+
+parameters <- read_lines('config/parameters.txt', skip_empty_rows = T)
 YEAR <- as.integer(parameters[2])
-inputExcelFilepath <- parameters[6]
-inputDatabaseName <- parameters[8]
-outputXMLfilepath <- parameters[14]
+SENARIO_NAME <- parameters[6]
+project_dir <- 
+inputExcelFilepath <- paste0(dirname(getwd()), "/data/interim/", parameters[8])
+inputDatabaseName <- paste0(parameters[2], "_moves4_in_", SENARIO_NAME)
+outputXMLfilepath <- paste0(parameters[2], "_moves4_", SENARIO_NAME, ".xml")
 
 # ---- !!! USER ACTION NEEDED HERE !!! ----
 # Change the year, the database name, the path to the Excel workbook with the input data, the worksheet names, and the output XML file path as needed.
