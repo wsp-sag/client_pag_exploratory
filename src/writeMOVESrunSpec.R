@@ -1,10 +1,11 @@
 library(readr)
-parameters <- read_lines('C:/Users/ryanh/Desktop/MOVES4_control/parameters.txt', skip_empty_rows = T)
+parameters <- read_lines('config/parameters.txt', skip_empty_rows = T)
 YEAR <- as.integer(parameters[2])
 descriptionText <- parameters[4]
-inputDatabaseName <- parameters[8]
-outputDatabaseName <- parameters[10]
-outputMRSfilepath <- parameters[12]
+SENARIO_NAME <- parameters[6]
+inputDatabaseName <- paste0(parameters[2], "_moves4_in_", SENARIO_NAME)
+outputDatabaseName <- paste0(parameters[2], "_moves4_out_", SENARIO_NAME)
+outputMRSfilepath <- paste0(parameters[2], "_moves4_", SENARIO_NAME, ".mrs")
 
 # ---- !!! USER ACTION NEEDED HERE !!! ----
 # Change the year, the description, the database names, and the output MRS file path as needed.
