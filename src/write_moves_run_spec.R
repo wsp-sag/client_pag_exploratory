@@ -1,11 +1,14 @@
 library(readr)
-parameters <- read_lines('config/parameters.txt', skip_empty_rows = T)
-YEAR <- as.integer(parameters[2])
-descriptionText <- parameters[4]
-SENARIO_NAME <- parameters[6]
-inputDatabaseName <- paste0(parameters[2], "_moves4_in_", SENARIO_NAME)
-outputDatabaseName <- paste0(parameters[2], "_moves4_out_", SENARIO_NAME)
-outputMRSfilepath <- paste0(parameters[2], "_moves4_", SENARIO_NAME, ".mrs")
+
+args <- commandArgs(trailingOnly = TRUE)
+YEAR <- as.character(args[1])
+SENARIO_NAME <- args[2]
+data_directory = args[3]
+inputDatabaseName <- paste0(YEAR, "_moves4_in_", SENARIO_NAME)
+outputDatabaseName <- paste0(YEAR, "_moves4_out_", SENARIO_NAME)
+outputMRSfilepath <- paste0(data_directory, YEAR, "_moves4_", SENARIO_NAME, ".mrs")
+descriptionText <- gsub("2035", YEAR, "Test run on PAG 531 for MOVES 4 automation development for all criteria pollutants (CO, CO2e, NOx, PM2.5, PM10, VOC) for Pima County, AZ, for 2035 with output emissions by source type, month, and day type with IM input data that former PAG air quality manager Susanne Cotty left for successor")
+
 
 # ---- !!! USER ACTION NEEDED HERE !!! ----
 # Change the year, the description, the database names, and the output MRS file path as needed.

@@ -6,11 +6,13 @@ library(tidyverse)
 library(DBI)
 library(RMySQL)
 
-parameters <- read_lines('config/parameters.txt', skip_empty_rows = T)
-SENARIO_NAME <- parameters[6]
-outputDatabaseName <- paste0(parameters[2], "_moves4_out_", SENARIO_NAME)
-emissionsOutputCSVfilepath <- paste0(dirname(getwd()), "/data/interim/", parameters[10])
-database_password <- parameters[12]
+args <- commandArgs(trailingOnly = TRUE)
+YEAR <- as.character(args[1])
+SENARIO_NAME <- args[2]
+data_directory = args[3]
+database_password <- args[4]
+outputDatabaseName <- paste0(YEAR, "_moves4_out_", SENARIO_NAME)
+emissionsOutputCSVfilepath <- paste0(data_directory, YEAR, "_moves4_", SENARIO_NAME, "_emissions.csv")
 
 # Database connection parameters
 db_host <- "127.0.0.1"

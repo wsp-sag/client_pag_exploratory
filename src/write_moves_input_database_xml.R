@@ -3,13 +3,14 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages, repos = "http://cran.us.r-project.org", dependencies = TRUE)
 library(readr)
 
-parameters <- read_lines('config/parameters.txt', skip_empty_rows = T)
-YEAR <- as.integer(parameters[2])
-SENARIO_NAME <- parameters[6]
-project_dir <- 
-inputExcelFilepath <- paste0(dirname(getwd()), "/data/interim/", parameters[8])
-inputDatabaseName <- paste0(parameters[2], "_moves4_in_", SENARIO_NAME)
-outputXMLfilepath <- paste0(parameters[2], "_moves4_", SENARIO_NAME, ".xml")
+args <- commandArgs(trailingOnly = TRUE)
+YEAR <- as.character(args[1])
+SENARIO_NAME <- args[2]
+inputExcelFilepath_name = args[3]
+data_directory = args[4]
+inputExcelFilepath <- paste0(data_directory, inputExcelFilepath_name)
+inputDatabaseName <- paste0(YEAR, "_moves4_in_", SENARIO_NAME)
+outputXMLfilepath <- paste0(data_directory, YEAR, "_moves4_", SENARIO_NAME, ".xml")
 
 # ---- !!! USER ACTION NEEDED HERE !!! ----
 # Change the year, the database name, the path to the Excel workbook with the input data, the worksheet names, and the output XML file path as needed.
