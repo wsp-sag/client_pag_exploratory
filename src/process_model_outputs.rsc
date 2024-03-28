@@ -1,4 +1,4 @@
-Macro "MOVES_input" (projectFolder, outputFolder, iteration)
+Macro "MOVES_input" (model_folder, output_folder, iteration)
 	RunMacro("TCB Init")
 	
 	//************* place to make changes ********************************************
@@ -6,15 +6,13 @@ Macro "MOVES_input" (projectFolder, outputFolder, iteration)
 	
 	timePeriods = {"AM","MD","PM","NT"}
 	directions={"AB","BA"}
-	sceOutputFolder = projectFolder +"\\output\\"
-	outputFileVMT = outputFolder  +"\\input_TDM_VMT.csv"
-	outputFileVHT = outputFolder  +"\\input_TDM_VHT.csv"
+	sceOutputFolder = model_folder +"\\output\\"
+	outputFileVMT = output_folder  +"\\output_TDM_VMT.csv"
+	outputFileVHT = output_folder  +"\\output_TDM_VHT.csv"
 	
 	//sub_roadway for ID, ATYPE, AB (and BA) LINKCASS
-	rdFileName = projectFolder +"\\highway\\roadway.dbd"
+	rdFileName = model_folder +"\\highway\\roadway.dbd"
 	{node_lyr, link_lyr} = RunMacro("TCB Add DB Layers", rdFileName,,)
-	//ok = (node_lyr <> null & link_lyr <> null)  
-	//if !ok then goto quit
 	
 	//sub_Flows for AB (and BA) VMT and Speed
 	vecVMTandSpeedAll=null
@@ -127,9 +125,6 @@ Macro "MOVES_input" (projectFolder, outputFolder, iteration)
 		end
 		WriteLine(outFile, strLine) //data
 	end
-	
-	quit: 
-		ShowMessage("inputs for MOVES: Finshed Succesfully!!"+ "\n" + "input_TDM_VMT.csv and input_TDM_VHT.csv")
 
 endMacro
 	

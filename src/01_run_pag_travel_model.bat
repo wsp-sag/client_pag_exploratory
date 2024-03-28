@@ -13,8 +13,11 @@ SET LSTFILE=phoenix_ui.lst
 :: gisdk macro name for entry
 SET ENTRY_MACRO_NAME="Run Model"
 
+:: python path
+SET PYTHON_PATH=C:\\Python27\\ArcGIS10.6\\python.exe
+
 :: compile the rsc
-"%TC_PATH%\rscc.exe" -c -u "%COMPILED_UI_PATH%\phoenix_ui.dbd" "%GISDK_CODE_PATH%\%LSTFILE%"
+::"%TC_PATH%\rscc.exe" -c -u "%COMPILED_UI_PATH%\phoenix_ui.dbd" "%GISDK_CODE_PATH%\%LSTFILE%"
 
 :: run macro
 "%TC_PATH%\tcw.exe" -q -a "%COMPILED_UI_PATH%\phoenix_ui.dbd" -ai %ENTRY_MACRO_NAME% 

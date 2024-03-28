@@ -29,7 +29,7 @@ vht_SrcRdType_Hour_SpdBinVec=[] # output format
 def readInputs():
     print("##### read inputs")
     
-    strInputTDMvht="../data/interim/input_TDM_VHT.csv"
+    strInputTDMvht="../data/interim/output_TDM_VHT.csv"
     strInputSpdBins="../data/external/MOVES/other/input_speedBins.csv"
     strInputSrcUseType="../data/external/MOVES/other/input_sourceUseType.csv"
     strInputRdType="../data/external/MOVES/other/input_roadTypes.csv"

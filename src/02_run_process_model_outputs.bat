@@ -11,10 +11,13 @@ SET PROJECT_PATH=D:\\PAG\\client_pag_exploratory
 SET GISDK_CODE_PATH=%PROJECT_PATH%\\src
 
 :: path where to put compiled UI
-SET COMPILED_UI_PATH=%PROJECT_PATH%\\src\\UI
+SET COMPILED_UI_PATH=%PROJECT_PATH%\\src\\temp
+
+:: create temp folder if it doesn't exist
+if not exist "%COMPILED_UI_PATH%" mkdir %COMPILED_UI_PATH%
 
 :: gisdk list file name
-SET RSCFILE=inputs_MOVES_HS.rsc
+SET RSCFILE=process_model_outputs.rsc
 
 :: gisdk macro name for entry
 SET ENTRY_MACRO_NAME="MOVES_input"
@@ -23,12 +26,10 @@ SET ENTRY_MACRO_NAME="MOVES_input"
 SET OUTPUT_PATH=%PROJECT_PATH%\\data\\interim
 
 :: path where the abm model folder is located
-SET MODEL_FOLDER=D:\\PAG\\client_pag_abm_development\\models\\abm
+SET MODEL_PATH=D:\\PAG\\client_pag_abm_development\\models\\abm
 
 ::model iteration number for network summaries
 SET MODEL_ITERATION="3"
-
-
 
 :: compile the rsc
 "%TC_PATH%\rscc.exe" -c -u "%COMPILED_UI_PATH%\moves_input.dbd" "%GISDK_CODE_PATH%\%RSCFILE%"
@@ -36,6 +37,10 @@ SET MODEL_ITERATION="3"
 :: run macro
 cd /d %PROJECT_PATH%/src
 
-%PYTHON_PATH% run_input_moves_hs.py "%MODEL_FOLDER%" "%OUTPUT_PATH%" %MODEL_ITERATION% "%COMPILED_UI_PATH%\\moves_input" %ENTRY_MACRO_NAME%
+:: execute the macro via caliper Python API
+%PYTHON_PATH% run_process_model_outputs.py %ENTRY_MACRO_NAME% "%COMPILED_UI_PATH%\\moves_input.dbd"  "%MODEL_PATH%" "%OUTPUT_PATH%" %MODEL_ITERATION% 
 
-pause
+:: delete temp folder if it exist
+if exist "%COMPILED_UI_PATH%" rmdir /s /q %COMPILED_UI_PATH%
+
+PAUSE

@@ -6,7 +6,8 @@ Created on Mar 16, 2016
 import os
 import csv, sys
 import numpy as np
-import VMTratiobySpeed
+from vmt_ratio_by_speed import readInputs
+from vmt_ratio_by_speed import calcVHTratioBySpeed
 import pandas as pd
 
 #global
@@ -48,8 +49,8 @@ def readInputs_1():
     strInputADOTvehReg="../data/external/MOVES/vehicle_population/input_MOVES_ADOT_vehReg.csv"
     strInputNatlDef_base="../data/external/MOVES/MOVES_PimaCounty_default/input_MOVES_natlDef_base.csv"
     strInputNatlDef_fcst="../data/external/MOVES/MOVES_PimaCounty_default/input_MOVES_natlDef_forecast.csv"
-    strInputTDMvht="../data/interim/input_TDM_VHT.csv"
-    strInputTDMvmt="../data/interim/input_TDM_VMT.csv"
+    strInputTDMvht="../data/interim/output_TDM_VHT.csv"
+    strInputTDMvmt="../data/interim/output_TDM_VMT.csv"
 
     fileout = open('../data/interim/output_MOVES_parameters.csv','w')
     
@@ -478,8 +479,8 @@ def main():
     print("")
     print("MOVES input 1 generated!")
     
-    vhtmtx = VMTratiobySpeed.readInputs()
-    VMTratiobySpeed.calcVHTratioBySpeed(vhtmtx)
+    vhtmtx = readInputs()
+    calcVHTratioBySpeed(vhtmtx)
     print("")
     print("Speed VHT calculation has been completed!")
 
