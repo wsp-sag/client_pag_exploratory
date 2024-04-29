@@ -1,6 +1,11 @@
-Macro "MOVES_input" (model_folder, output_folder, iteration)
+Macro "MOVES_input"
 	RunMacro("TCB Init")
 	
+	// Set by code/program
+	model_folder='D:\\PAG\\client_pag_abm_development\\models\\abm'
+	output_folder='D:\\PAG\\client_pag_exploratory\\data\\interim'
+	iteration='3'
+
 	//************* place to make changes ********************************************
 	//********************************************************************************
 	
@@ -125,6 +130,8 @@ Macro "MOVES_input" (model_folder, output_folder, iteration)
 		end
 		WriteLine(outFile, strLine) //data
 	end
+
+	Exit()
 
 endMacro
 	

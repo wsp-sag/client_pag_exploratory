@@ -1,22 +1,16 @@
-list.of.packages <- c("cli", "purrr", "pillar", "readr")
+list.of.packages <- c("readr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages, repos = "http://cran.us.r-project.org", dependencies = TRUE)
 library(readr)
 
 args <- commandArgs(trailingOnly = TRUE)
-YEAR <- as.character(args[1])
+YEAR <- args[1]
 SENARIO_NAME <- args[2]
-inputExcelFilepath_name = args[3]
-data_directory = args[4]
-inputExcelFilepath <- paste0(data_directory, inputExcelFilepath_name)
+inputExcelFilepath = args[3]
+outputXMLfilepath = args[4]
 inputDatabaseName <- paste0(YEAR, "_moves4_in_", SENARIO_NAME)
-outputXMLfilepath <- paste0(data_directory, YEAR, "_moves4_", SENARIO_NAME, ".xml")
 
-# ---- !!! USER ACTION NEEDED HERE !!! ----
-# Change the year, the database name, the path to the Excel workbook with the input data, the worksheet names, and the output XML file path as needed.
-# YEAR <- 2055
-# inputDatabaseName <- '2055_moves4_test02c_in_20231122'
-# inputExcelFilepath <- 'C:/Users/ryanh/Desktop/MOVES4_automationTesting/2055_MOVES4_test02c_in_20231122.xlsx'
+# --------
 sourceTypePopulationSheetName <- 'sourceTypePopulation'
 sourceTypeAgeDistributionSheetName <- 'ageDistribution'
 roadTypeDistributionSheetName <- 'roadTypeDistribution'
@@ -31,7 +25,6 @@ dailyVMTfractionSheetName <- 'dailyVMTfraction'
 hourlyVMTfractionSheetName <- 'hourlyVMTfraction'
 meteorologySheetName <- 'meteorology'
 inspectionMaintenanceSheetName <- 'inspectionMaintenance'
-# outputXMLfilepath <- 'C:/Users/RyanH/Desktop/airQualityUpdate_fall2023/MOVES_automation/MOVES4_automationTesting/2055_moves4_test02c_20231122.xml'
 
 # ---- basic information for MOVES 4 run for Pima County ----
 headerText <-

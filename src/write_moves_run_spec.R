@@ -1,23 +1,15 @@
 library(readr)
 
 args <- commandArgs(trailingOnly = TRUE)
-YEAR <- as.character(args[1])
+YEAR <- args[1]
 SENARIO_NAME <- args[2]
-data_directory = args[3]
+outputMRSfilepath = args[3]
 inputDatabaseName <- paste0(YEAR, "_moves4_in_", SENARIO_NAME)
 outputDatabaseName <- paste0(YEAR, "_moves4_out_", SENARIO_NAME)
-outputMRSfilepath <- paste0(data_directory, YEAR, "_moves4_", SENARIO_NAME, ".mrs")
 descriptionText <- gsub("2035", YEAR, "Test run on PAG 531 for MOVES 4 automation development for all criteria pollutants (CO, CO2e, NOx, PM2.5, PM10, VOC) for Pima County, AZ, for 2035 with output emissions by source type, month, and day type with IM input data that former PAG air quality manager Susanne Cotty left for successor")
 
 
 # ---- !!! USER ACTION NEEDED HERE !!! ----
-# Change the year, the description, the database names, and the output MRS file path as needed.
-# YEAR <- 2055
-# descriptionText <- 'Test run for MOVES 4 automation development for all criteria pollutants (CO, CO2e, NOx, PM2.5, PM10, VOC) for Pima County, AZ, for 2055 with output emissions by source type, month, and day type'
-# inputDatabaseName <- '2055_moves4_test02c_in_20231122'
-# outputDatabaseName <- '2055_moves4_test02c_out_20231122'
-# outputMRSfilepath <- 'C:/Users/RyanH/Desktop/airQualityUpdate_fall2023/MOVES_automation/MOVES4_automationTesting/2055_moves4_test02c_20231122.mrs'
-
 # Comment/uncomment lines (by adding/deleting #) for onroad/nonroad, inventory/rates, and domain as appropriate.
 modelsText <- '<models>\n    <model value="ONROAD"/>\n</models>'    # uncomment to run for onroad
 #modelsText <- '<models>\n    <model value="NONROAD"/>\n</models>'  # uncomment to run for nonroad
