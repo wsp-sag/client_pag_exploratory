@@ -11,7 +11,7 @@ Macro "MOVES_input"
 	
 	timePeriods = {"AM","MD","PM","NT"}
 	directions={"AB","BA"}
-	sceOutputFolder = model_folder +"\\output\\"
+	sceOutputFolder = model_folder +"\\out\\"
 	outputFileVMT = output_folder  +"\\output_TDM_VMT.csv"
 	outputFileVHT = output_folder  +"\\output_TDM_VHT.csv"
 	
