@@ -11,6 +11,6 @@ moves_input_path = "D:/PAG/client_pag_exploratory/data/external/MOVES"
 
 out_dir = "D:/PAG/client_pag_exploratory/data/interim"
 src_dir = "D:/PAG/client_pag_exploratory/src"
-
-scenario_year = 2023
+scenario_year = 2055
 scenario_name = "test"
+ev_share_percentage = 80
