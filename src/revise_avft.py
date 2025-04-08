@@ -63,7 +63,7 @@ def linear_ev_market_share_smoothed(target_fleet_ev_percentage, start_year, targ
     cumulative_fleet_ev_percentages[-1] = target_fleet_ev_percentage
     return pd.DataFrame({"Year": years, "EV_Market_Share": ev_market_shares, "Cumulative_Fleet_EV_Percentage": cumulative_fleet_ev_percentages})
 
-def update_avft_with_ev_growth(target_fleet_ev_percentage, target_year, start_year, moves_input_dir, moves_excel_spreadsheet):
+def update_avft_with_ev_growth(target_fleet_ev_percentage, start_year, target_year, moves_input_dir, moves_excel_spreadsheet):
     """
     Updates the AVFT file by:
     - Computing EV market share growth using a smooth transition function.
@@ -139,10 +139,10 @@ if __name__ == "__main__":
     args = sys.argv
     print(args)
     
-    ev_share = args[1]  
-    start_year = args[2]
+    ev_share = int(args[1])  
+    start_year = int(args[2])
     scenario_year = int(args[3])
     moves_input_path = args[4]    
     moves_excel_spreadsheet = args[5]
     
-    update_avft_with_ev_growth(80, 2055, 2025, moves_input_path, moves_excel_spreadsheet)
+    update_avft_with_ev_growth(ev_share, start_year, scenario_year, moves_input_path, moves_excel_spreadsheet)
