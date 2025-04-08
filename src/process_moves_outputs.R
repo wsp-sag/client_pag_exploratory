@@ -10,7 +10,7 @@ args <- commandArgs(trailingOnly = TRUE)
 YEAR <- args[1]
 SENARIO_NAME <- args[2]
 data_directory = args[3]
-database_password <- as.numeric(args[4])
+database_password <- args[4]
 outputDatabaseName <- paste0(YEAR, "_moves4_out_", SENARIO_NAME)
 emissionsOutputCSVfilepath <- paste0(data_directory, "/", YEAR, "_moves4_", SENARIO_NAME, "_emissions.csv")
 
