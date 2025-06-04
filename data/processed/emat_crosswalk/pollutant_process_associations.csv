@@ -1,0 +1,233 @@
+pollutantkey,pollutantname,processkey,processname
+58,Aluminum,1,Running Exhaust
+58,Aluminum,15,Crankcase Running Exhaust
+58,Aluminum,2,Start Exhaust
+58,Aluminum,16,Crankcase Start Exhaust
+58,Aluminum,90,Extended Idle Exhaust
+58,Aluminum,17,Crankcase Extended Idle Exhaust
+58,Aluminum,91,Auxiliary Power Exhaust
+36,Ammonium (NH4),1,Running Exhaust
+36,Ammonium (NH4),15,Crankcase Running Exhaust
+36,Ammonium (NH4),2,Start Exhaust
+36,Ammonium (NH4),16,Crankcase Start Exhaust
+36,Ammonium (NH4),90,Extended Idle Exhaust
+36,Ammonium (NH4),17,Crankcase Extended Idle Exhaust
+36,Ammonium (NH4),91,Auxiliary Power Exhaust
+90,Atmospheric CO2,1,Running Exhaust
+90,Atmospheric CO2,2,Start Exhaust
+90,Atmospheric CO2,90,Extended Idle Exhaust
+90,Atmospheric CO2,91,Auxiliary Power Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),1,Running Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),15,Crankcase Running Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),2,Start Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),16,Crankcase Start Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),90,Extended Idle Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),17,Crankcase Extended Idle Exhaust
+121,CMAQ5.0 Unspeciated (PMOTHR),91,Auxiliary Power Exhaust
+98,CO2 Equivalent,1,Running Exhaust
+98,CO2 Equivalent,2,Start Exhaust
+98,CO2 Equivalent,90,Extended Idle Exhaust
+98,CO2 Equivalent,91,Auxiliary Power Exhaust
+55,Calcium,1,Running Exhaust
+55,Calcium,15,Crankcase Running Exhaust
+55,Calcium,2,Start Exhaust
+55,Calcium,16,Crankcase Start Exhaust
+55,Calcium,90,Extended Idle Exhaust
+55,Calcium,17,Crankcase Extended Idle Exhaust
+55,Calcium,91,Auxiliary Power Exhaust
+2,Carbon Monoxide (CO),1,Running Exhaust
+2,Carbon Monoxide (CO),15,Crankcase Running Exhaust
+2,Carbon Monoxide (CO),2,Start Exhaust
+2,Carbon Monoxide (CO),16,Crankcase Start Exhaust
+2,Carbon Monoxide (CO),90,Extended Idle Exhaust
+2,Carbon Monoxide (CO),17,Crankcase Extended Idle Exhaust
+2,Carbon Monoxide (CO),91,Auxiliary Power Exhaust
+51,Chloride,1,Running Exhaust
+51,Chloride,15,Crankcase Running Exhaust
+51,Chloride,2,Start Exhaust
+51,Chloride,16,Crankcase Start Exhaust
+51,Chloride,90,Extended Idle Exhaust
+51,Chloride,17,Crankcase Extended Idle Exhaust
+51,Chloride,91,Auxiliary Power Exhaust
+118,Composite - NonECPM,1,Running Exhaust
+118,Composite - NonECPM,15,Crankcase Running Exhaust
+118,Composite - NonECPM,2,Start Exhaust
+118,Composite - NonECPM,16,Crankcase Start Exhaust
+118,Composite - NonECPM,90,Extended Idle Exhaust
+118,Composite - NonECPM,17,Crankcase Extended Idle Exhaust
+118,Composite - NonECPM,91,Auxiliary Power Exhaust
+112,Elemental Carbon,1,Running Exhaust
+112,Elemental Carbon,15,Crankcase Running Exhaust
+112,Elemental Carbon,2,Start Exhaust
+112,Elemental Carbon,16,Crankcase Start Exhaust
+112,Elemental Carbon,90,Extended Idle Exhaust
+112,Elemental Carbon,17,Crankcase Extended Idle Exhaust
+112,Elemental Carbon,91,Auxiliary Power Exhaust
+119,H2O (aerosol),1,Running Exhaust
+119,H2O (aerosol),15,Crankcase Running Exhaust
+119,H2O (aerosol),2,Start Exhaust
+119,H2O (aerosol),16,Crankcase Start Exhaust
+119,H2O (aerosol),90,Extended Idle Exhaust
+119,H2O (aerosol),17,Crankcase Extended Idle Exhaust
+119,H2O (aerosol),91,Auxiliary Power Exhaust
+59,Iron,1,Running Exhaust
+59,Iron,15,Crankcase Running Exhaust
+59,Iron,2,Start Exhaust
+59,Iron,16,Crankcase Start Exhaust
+59,Iron,90,Extended Idle Exhaust
+59,Iron,17,Crankcase Extended Idle Exhaust
+59,Iron,91,Auxiliary Power Exhaust
+54,Magnesium,1,Running Exhaust
+54,Magnesium,15,Crankcase Running Exhaust
+54,Magnesium,2,Start Exhaust
+54,Magnesium,16,Crankcase Start Exhaust
+54,Magnesium,90,Extended Idle Exhaust
+54,Magnesium,17,Crankcase Extended Idle Exhaust
+54,Magnesium,91,Auxiliary Power Exhaust
+66,Manganese Compounds,1,Running Exhaust
+5,Methane (CH4),1,Running Exhaust
+5,Methane (CH4),15,Crankcase Running Exhaust
+5,Methane (CH4),2,Start Exhaust
+5,Methane (CH4),16,Crankcase Start Exhaust
+5,Methane (CH4),90,Extended Idle Exhaust
+5,Methane (CH4),17,Crankcase Extended Idle Exhaust
+5,Methane (CH4),91,Auxiliary Power Exhaust
+35,Nitrate (NO3),1,Running Exhaust
+35,Nitrate (NO3),15,Crankcase Running Exhaust
+35,Nitrate (NO3),2,Start Exhaust
+35,Nitrate (NO3),16,Crankcase Start Exhaust
+35,Nitrate (NO3),90,Extended Idle Exhaust
+35,Nitrate (NO3),17,Crankcase Extended Idle Exhaust
+35,Nitrate (NO3),91,Auxiliary Power Exhaust
+6,Nitrous Oxide (N2O),1,Running Exhaust
+6,Nitrous Oxide (N2O),15,Crankcase Running Exhaust
+6,Nitrous Oxide (N2O),2,Start Exhaust
+6,Nitrous Oxide (N2O),16,Crankcase Start Exhaust
+79,Non-Methane Hydrocarbons,1,Running Exhaust
+79,Non-Methane Hydrocarbons,15,Crankcase Running Exhaust
+79,Non-Methane Hydrocarbons,2,Start Exhaust
+79,Non-Methane Hydrocarbons,16,Crankcase Start Exhaust
+79,Non-Methane Hydrocarbons,90,Extended Idle Exhaust
+79,Non-Methane Hydrocarbons,17,Crankcase Extended Idle Exhaust
+79,Non-Methane Hydrocarbons,91,Auxiliary Power Exhaust
+79,Non-Methane Hydrocarbons,11,Evap Permeation
+79,Non-Methane Hydrocarbons,12,Evap Fuel Vapor Venting
+79,Non-Methane Hydrocarbons,13,Evap Fuel Leaks
+79,Non-Methane Hydrocarbons,18,Refueling Displacement Vapor Loss
+79,Non-Methane Hydrocarbons,19,Refueling Spillage Loss
+122,Non-carbon Organic Matter (NCOM),1,Running Exhaust
+122,Non-carbon Organic Matter (NCOM),15,Crankcase Running Exhaust
+122,Non-carbon Organic Matter (NCOM),2,Start Exhaust
+122,Non-carbon Organic Matter (NCOM),16,Crankcase Start Exhaust
+122,Non-carbon Organic Matter (NCOM),90,Extended Idle Exhaust
+122,Non-carbon Organic Matter (NCOM),17,Crankcase Extended Idle Exhaust
+122,Non-carbon Organic Matter (NCOM),91,Auxiliary Power Exhaust
+111,Organic Carbon,1,Running Exhaust
+111,Organic Carbon,15,Crankcase Running Exhaust
+111,Organic Carbon,2,Start Exhaust
+111,Organic Carbon,16,Crankcase Start Exhaust
+111,Organic Carbon,90,Extended Idle Exhaust
+111,Organic Carbon,17,Crankcase Extended Idle Exhaust
+111,Organic Carbon,91,Auxiliary Power Exhaust
+3,Oxides of Nitrogen (NOx),1,Running Exhaust
+3,Oxides of Nitrogen (NOx),15,Crankcase Running Exhaust
+3,Oxides of Nitrogen (NOx),2,Start Exhaust
+3,Oxides of Nitrogen (NOx),16,Crankcase Start Exhaust
+3,Oxides of Nitrogen (NOx),90,Extended Idle Exhaust
+3,Oxides of Nitrogen (NOx),17,Crankcase Extended Idle Exhaust
+3,Oxides of Nitrogen (NOx),91,Auxiliary Power Exhaust
+53,Potassium,1,Running Exhaust
+53,Potassium,15,Crankcase Running Exhaust
+53,Potassium,2,Start Exhaust
+53,Potassium,16,Crankcase Start Exhaust
+53,Potassium,90,Extended Idle Exhaust
+53,Potassium,17,Crankcase Extended Idle Exhaust
+53,Potassium,91,Auxiliary Power Exhaust
+100,Primary Exhaust PM10  - Total,1,Running Exhaust
+100,Primary Exhaust PM10  - Total,15,Crankcase Running Exhaust
+100,Primary Exhaust PM10  - Total,2,Start Exhaust
+100,Primary Exhaust PM10  - Total,16,Crankcase Start Exhaust
+100,Primary Exhaust PM10  - Total,90,Extended Idle Exhaust
+100,Primary Exhaust PM10  - Total,17,Crankcase Extended Idle Exhaust
+100,Primary Exhaust PM10  - Total,91,Auxiliary Power Exhaust
+110,Primary Exhaust PM2.5 - Total,1,Running Exhaust
+110,Primary Exhaust PM2.5 - Total,15,Crankcase Running Exhaust
+110,Primary Exhaust PM2.5 - Total,2,Start Exhaust
+110,Primary Exhaust PM2.5 - Total,16,Crankcase Start Exhaust
+110,Primary Exhaust PM2.5 - Total,90,Extended Idle Exhaust
+110,Primary Exhaust PM2.5 - Total,17,Crankcase Extended Idle Exhaust
+110,Primary Exhaust PM2.5 - Total,91,Auxiliary Power Exhaust
+106,Primary PM10 - Brakewear Particulate,9,Brakewear
+107,Primary PM10 - Tirewear Particulate,10,Tirewear
+116,Primary PM2.5 - Brakewear Particulate,9,Brakewear
+117,Primary PM2.5 - Tirewear Particulate,10,Tirewear
+124,Residual PM (NonECNonSO4NonOM),1,Running Exhaust
+124,Residual PM (NonECNonSO4NonOM),15,Crankcase Running Exhaust
+124,Residual PM (NonECNonSO4NonOM),2,Start Exhaust
+124,Residual PM (NonECNonSO4NonOM),16,Crankcase Start Exhaust
+124,Residual PM (NonECNonSO4NonOM),90,Extended Idle Exhaust
+124,Residual PM (NonECNonSO4NonOM),17,Crankcase Extended Idle Exhaust
+124,Residual PM (NonECNonSO4NonOM),91,Auxiliary Power Exhaust
+57,Silicon,1,Running Exhaust
+57,Silicon,15,Crankcase Running Exhaust
+57,Silicon,2,Start Exhaust
+57,Silicon,16,Crankcase Start Exhaust
+57,Silicon,90,Extended Idle Exhaust
+57,Silicon,17,Crankcase Extended Idle Exhaust
+57,Silicon,91,Auxiliary Power Exhaust
+52,Sodium,1,Running Exhaust
+52,Sodium,15,Crankcase Running Exhaust
+52,Sodium,2,Start Exhaust
+52,Sodium,16,Crankcase Start Exhaust
+52,Sodium,90,Extended Idle Exhaust
+52,Sodium,17,Crankcase Extended Idle Exhaust
+52,Sodium,91,Auxiliary Power Exhaust
+115,Sulfate Particulate,1,Running Exhaust
+115,Sulfate Particulate,15,Crankcase Running Exhaust
+115,Sulfate Particulate,2,Start Exhaust
+115,Sulfate Particulate,16,Crankcase Start Exhaust
+115,Sulfate Particulate,90,Extended Idle Exhaust
+115,Sulfate Particulate,17,Crankcase Extended Idle Exhaust
+115,Sulfate Particulate,91,Auxiliary Power Exhaust
+56,Titanium,1,Running Exhaust
+56,Titanium,15,Crankcase Running Exhaust
+56,Titanium,2,Start Exhaust
+56,Titanium,16,Crankcase Start Exhaust
+56,Titanium,90,Extended Idle Exhaust
+56,Titanium,17,Crankcase Extended Idle Exhaust
+56,Titanium,91,Auxiliary Power Exhaust
+91,Total Energy Consumption,1,Running Exhaust
+91,Total Energy Consumption,2,Start Exhaust
+91,Total Energy Consumption,90,Extended Idle Exhaust
+91,Total Energy Consumption,91,Auxiliary Power Exhaust
+1,Total Gaseous Hydrocarbons,1,Running Exhaust
+1,Total Gaseous Hydrocarbons,15,Crankcase Running Exhaust
+1,Total Gaseous Hydrocarbons,2,Start Exhaust
+1,Total Gaseous Hydrocarbons,16,Crankcase Start Exhaust
+1,Total Gaseous Hydrocarbons,90,Extended Idle Exhaust
+1,Total Gaseous Hydrocarbons,17,Crankcase Extended Idle Exhaust
+1,Total Gaseous Hydrocarbons,91,Auxiliary Power Exhaust
+1,Total Gaseous Hydrocarbons,11,Evap Permeation
+1,Total Gaseous Hydrocarbons,12,Evap Fuel Vapor Venting
+1,Total Gaseous Hydrocarbons,13,Evap Fuel Leaks
+1,Total Gaseous Hydrocarbons,18,Refueling Displacement Vapor Loss
+1,Total Gaseous Hydrocarbons,19,Refueling Spillage Loss
+123,Total Organic Matter (TOM),1,Running Exhaust
+123,Total Organic Matter (TOM),15,Crankcase Running Exhaust
+123,Total Organic Matter (TOM),2,Start Exhaust
+123,Total Organic Matter (TOM),16,Crankcase Start Exhaust
+123,Total Organic Matter (TOM),90,Extended Idle Exhaust
+123,Total Organic Matter (TOM),17,Crankcase Extended Idle Exhaust
+123,Total Organic Matter (TOM),91,Auxiliary Power Exhaust
+87,Volatile Organic Compounds,1,Running Exhaust
+87,Volatile Organic Compounds,15,Crankcase Running Exhaust
+87,Volatile Organic Compounds,2,Start Exhaust
+87,Volatile Organic Compounds,16,Crankcase Start Exhaust
+87,Volatile Organic Compounds,90,Extended Idle Exhaust
+87,Volatile Organic Compounds,17,Crankcase Extended Idle Exhaust
+87,Volatile Organic Compounds,91,Auxiliary Power Exhaust
+87,Volatile Organic Compounds,11,Evap Permeation
+87,Volatile Organic Compounds,12,Evap Fuel Vapor Venting
+87,Volatile Organic Compounds,13,Evap Fuel Leaks
+87,Volatile Organic Compounds,18,Refueling Displacement Vapor Loss
+87,Volatile Organic Compounds,19,Refueling Spillage Loss

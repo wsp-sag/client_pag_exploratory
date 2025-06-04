@@ -1,0 +1,232 @@
+
+
+scope:
+    name: PAG EMAT
+    desc: PAG EMAT
+    
+    
+inputs:
+    HH_EMP_Growth:
+        shortname: Household/Employment Growth Rate
+        ptype: uncertainty
+        desc: Household/Employment Growth Rate
+        dtype: float
+        default: 0
+        min: 0.0
+        max: 1.0
+        dist: uniform
+        corr: []
+            
+    HH_EMP_Distribution:
+        shortname: Distribution of households and employment within region
+        ptype: uncertainty
+        desc: Distribution of households and employment within region
+        dtype: float
+        default: 0
+        min: 0.0
+        max: 1.0
+        dist: uniform
+        corr: []
+
+    AV_Rates:
+        shortname: Autonomous Vehicle Adoption Rates
+        ptype: uncertainty
+        desc: Autonomous Vehicle Adoption Rates
+        dtype: float
+        default: 0
+        min: 0.0
+        max: 1.0
+        dist: uniform
+        corr: []
+
+    EV_Rates:
+        shortname: Electric Vehicle Adoption Rates
+        ptype: uncertainty
+        desc: Electric Vehicle Adoption Rates
+        dtype: float
+        default: 0.0
+        min: 0.0
+        max: 1.0
+        dist: uniform
+        corr: []
+
+    Teleworking:
+        shortname: Level of Teleworking
+        ptype: uncertainty
+        desc:
+        dtype: float
+        default: 0.0
+        min: 0.0
+        max: 0.4
+        dist: uniform
+        corr: []
+
+    Heavy_Medium_Truck_Travel:
+        shortname: Heavy and Medium Truck Travel
+        ptype: uncertainty
+        desc: Heavy and Medium Truck Travel
+        dtype: float
+        default: 0.0
+        min: 0.00
+        max: 1.00
+        dist: uniform
+        corr: []
+
+    Ecommerce:
+        shortname: Level of e-commerce
+        ptype: uncertainty
+        desc:
+        dtype: float
+        default: 0.0
+        min: 0.0
+        max: 0.2
+        dist: uniform
+        corr: []
+
+    Transit_Headways:
+        shortname: Transit headways 
+        ptype: lever
+        desc: Change in headway from current levels
+        dtype: float
+        default: 0.50
+        min: 0.50
+        max: 2.00
+        dist: uniform
+        corr: []
+
+    Transit_Service_Expansion:
+        shortname: Transit Service Expansion
+        ptype: lever
+        desc:
+        default: No-Expansion
+        values:
+           - No-Expansion
+           - Expansion
+
+    Roadway_Capacity_Improvement:
+        shortname: Roadway Capacity Improvements
+        ptype: lever
+        desc:
+        default: High
+        values:
+            - High
+            - High and Medium
+            - All
+
+    Road_User_Fee:
+        shortname: Road User Fee
+        ptype: lever
+        desc: Road user fee in dollars per mile
+        dtype: float
+        default: 0.0
+        min: 0.0
+        max: 0.1
+        dist: uniform
+        corr: [] 
+        
+    Incentives_Special_AreaPop:
+        shortname: Incentives for special are population
+        ptype: lever
+        desc: Reduction in transit and shared mobility fares
+        dtype: float
+        default: 0.0
+        min: 0.0
+        max: 0.5
+        dist: uniform
+        corr: [] 
+        
+ 
+outputs:
+
+    Auto Mode Share:
+        kind:info
+
+    Bike Mode Share:
+        kind:info
+
+    Transit Mode Share:
+        kind:info
+
+    Walk Mode Share:
+        kind:info
+
+    Transit PMT:
+        kind:info
+
+    Regional VMT:
+        kind:info
+
+    Regional VMT per Capita:
+        kind:info
+
+    Regional VHT:
+        kind:info
+
+    Regional VHTper Capita:
+        kind:info
+
+    Average Commute Time by Auto:
+        kind:info
+
+    Average Commute Time by Transit:
+        kind:info
+
+    Average Transit Travel Time:
+        kind:info
+
+    Percentage of Population within Quarter Mile:
+        kind:info
+
+    Percentage of Jobs within Quarter Mile:
+        kind:info
+
+    AM Travel Time Index:
+        kind:info
+
+    PM Travel Time Index:
+        kind:info
+
+    Regional Speed:
+        kind:info
+
+    Auto Accessibility Peak:
+        kind:info
+
+    Auto Accessibility Peak within 30 Minutes:
+        kind:info
+
+    Transit Accessibility Peak:
+        kind:info
+
+    Transit Accessibility Off Peak within 45 Minutes:
+        kind:info
+
+    Disadvantage Zone Auto Accessibility Peak for Jobs 0:
+        kind:info
+
+    Disadvantage Zone Auto Accessibility Peak for Jobs 1:
+        kind:info
+
+    Disadvantage Zone Transit Accessibility Peak within 45 Minutes for Jobs 0:
+        kind:info
+
+    Disadvantage Zone Transit Accessibility Peak within 45 Minutes for Jobs 1:
+        kind:info
+
+    Nitrous oxide (NOx) emissions:
+        kind:info
+
+    Volatile organic compounds (VOC) emissions:
+        kind:info
+
+    Greenhouse gas emissions (CO2) equivalent:
+        kind:info
+
+    Particulate matter 10 micrometers or smaller emissions (PM10) :
+        kind:info
+
+    Particulate matter 2.5 micrometers or smaller emissions (PM2.5):
+        kind:info
+
+    Carbon monoxide (CO) emissions:
+        kind:info

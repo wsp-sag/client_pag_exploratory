@@ -1,0 +1,155 @@
+---
+title: "Trim Person Change File"
+output: html_notebook
+---
+
+# Overhead
+```{r overhead, include = FALSE}
+packages_vector <- c("tidyverse")
+need_to_install <- packages_vector[!(packages_vector %in% installed.packages()[,"Package"])]
+
+if (length(need_to_install)) install.packages(need_to_install)
+
+for (package in packages_vector) {
+  library(package, character.only = TRUE)
+}
+
+```
+
+# Remote I/O
+```{r remote-io}
+interim_dir <- "../data/interim/"
+input_low_av_hh_file <- paste0(interim_dir, "output_disaggHouseholdList_low.csv")
+input_high_av_hh_file <- paste0(interim_dir, "output_disaggHouseholdList_high.csv")
+input_high_av_low_density_hh_file <- paste0(interim_dir, "output_disaggHouseholdList107.csv")
+
+input_low_av_trips_file <- paste0(interim_dir, "adjusted_disaggTripList_low.csv")
+input_high_av_trips_file <- paste0(interim_dir, "adjusted_disaggTripList_high.csv")
+input_high_av_low_density_trips_file <- paste0(interim_dir, "adjusted_disaggTripList107.csv")
+
+output_file <- paste0(interim_dir, "av-investigation-for-tableau.csv")
+```
+
+# Data Reads
+```{r data-reads}
+input_low_df <- read_csv(input_low_av_hh_file, 
+                         col_types = cols(
+                           hhid = col_double(),
+                           hhidAcrossSample = col_double(),
+                           pumsSerialNo = col_double(),
+                           homeTaz = col_double(),
+                           homeMaz = col_double(),
+                           hhsize = col_double(),
+                           numFtWorkers = col_double(),
+                           numPtWorkers = col_double(),
+                           numUnivStuds = col_double(),
+                           numNonWorkers = col_double(),
+                           nunmRetired = col_double(),
+                           numDrivAgeStuds = col_double(),
+                           numPreDrivStuds = col_double(),
+                           numPreshcool = col_double(),
+                           hhIncomeDollars = col_double(),
+                           hhNumAutos = col_double(),
+                           dwellingType = col_double(),
+                           ifAvHousehold = col_double()
+                         ))
+
+input_high_df <- read_csv(input_high_av_hh_file, col_types = spec(input_low_df))
+input_high_low_density_df <- read_csv(input_high_av_low_density_hh_file, col_types = spec(input_low_df))
+
+input_trips_low_df <- read_csv(input_low_av_trips_file, 
+                               col_types = cols(
+                                 uniqueid = col_double(),
+                                 jointTripNum = col_double(),
+                                 hhid = col_double(),
+                                 pnum = col_double(),
+                                 tourNum = col_double(),
+                                 tourSubTourNum = col_double(),
+                                 personTripNum = col_double(),
+                                 tourTripNum = col_double(),
+                                 mainTourTripNum = col_double(),
+                                 subTourTripNum = col_double(),
+                                 jointTourNum = col_double(),
+                                 jointTripRole = col_double(),
+                                 direction = col_double(),
+                                 obBundleNum = col_double(),
+                                 ibBundleNum = col_double(),
+                                 escortingRole = col_double(),
+                                 jointSpecEvtTour = col_double(),
+                                 party = col_character(),
+                                 origTaz = col_double(),
+                                 origMaz = col_double(),
+                                 destTaz = col_double(),
+                                 destMaz = col_double(),
+                                 origPurp = col_double(),
+                                 destPurp = col_double(),
+                                 mode = col_double(),
+                                 prelimDepartInterval = col_double(),
+                                 finalDepartMinute = col_double(),
+                                 tripDistance = col_double(),
+                                 prelimTravelMinutes = col_double(),
+                                 finalTravelMinutes = col_double(),
+                                 prelimArriveInterval = col_double(),
+                                 finalArriveMinute = col_double(),
+                                 activityMinutesAtDest = col_double(),
+                                 randDepMinute = col_double(),
+                                 randArrMinute = col_double(),
+                                 randDurMinute = col_double(),
+                                 tourSpanMinutes = col_double(),
+                                 tourTravelMinutes = col_double(),
+                                 tourNumActivities = col_double(),
+                                 tourPrimaryDestPurp = col_double(),
+                                 activityClassification = col_double(),
+                                 tourPressure = col_double(),
+                                 actDrawRn1 = col_double(),
+                                 actDrawRn2 = col_double(),
+                                 minActDurDraw = col_double(),
+                                 tourCompression = col_double(),
+                                 finalMinActDur = col_double(),
+                                 isamAdjDepMin = col_double(),
+                                 isamAdjArrMin = col_double(),
+                                 isamAdjDurMin = col_double(),
+                                 pnrParkTaz = col_double(),
+                                 pnrParkMaz = col_double(),
+                                 tripNum = col_double()
+                               ))
+
+input_trips_high_df <- read_csv(input_high_av_trips_file, col_types = spec(input_trips_low_df))
+input_trips_high_low_density_df <- read_csv(input_high_av_low_density_trips_file, col_types = spec(input_trips_low_df))
+```
+
+ 
+ 
+# Reductions
+```{r reductions}
+join_trips_df <- bind_rows(
+  mutate(input_trips_low_df, scenario = "low_av_share"),
+  mutate(input_trips_high_df, scenario = "high_av_share"),
+  mutate(input_trips_high_low_density_df, scenario = "high_av_share_lower_density")
+) %>%
+  select(uniqueid, hhid, pnum, mode, tourPrimaryDestPurp, scenario)
+
+count_trips_df <- join_trips_df %>%
+  group_by(hhid, scenario) %>%
+  summarise(trip_count = n(), .groups = "drop")
+
+join_hh_df <- bind_rows(
+  mutate(input_low_df, scenario = "low_av_share"),
+  mutate(input_high_df, scenario = "high_av_share"),
+  mutate(input_high_low_density_df, scenario = "high_av_share_lower_density")
+) %>%
+  select(hhid, hhNumAutos, scenario) 
+
+output_df <- join_hh_df %>%
+  left_join(., join_trips_df, by = c("hhid", "scenario")) %>%
+  left_join(., count_trips_df, by = c("hhid", "scenario")) %>%
+  mutate(trip_count = replace_na(trip_count, 0L))
+
+```
+
+# Writes
+```{r writes}
+write_csv(output_df, output_file)
+
+```
+

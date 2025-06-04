@@ -1,0 +1,248 @@
+source,measures,dim1,dim1_value,dim2,dim2_value,Scenario,measure_name,measure_value
+ABM,Mode Share,Mode,Auto,,,Run061,Trips,1166199.0
+ABM,Mode Share,Mode,Bike,,,Run061,Trips,25061.0
+ABM,Mode Share,Mode,SchoolBus,,,Run061,Trips,17224.0
+ABM,Mode Share,Mode,Taxi,,,Run061,Trips,4060.0
+ABM,Mode Share,Mode,Transit,,,Run061,Trips,25667.0
+ABM,Mode Share,Mode,Walk,,,Run061,Trips,169121.0
+ABM,Mode Share,Mode,Auto,,,Run061,Share,0.828659477649908
+ABM,Mode Share,Mode,Bike,,,Run061,Share,0.0178074541046462
+ABM,Mode Share,Mode,SchoolBus,,,Run061,Share,0.0122387610030895
+ABM,Mode Share,Mode,Taxi,,,Run061,Share,0.0028848914115503
+ABM,Mode Share,Mode,Transit,,,Run061,Share,0.0182380561232175
+ABM,Mode Share,Mode,Walk,,,Run061,Share,0.120171359707589
+ABM,PMT,Mode,Auto,,,Run061,TotalPMT,5618502.25
+ABM,PMT,Mode,Bike,,,Run061,TotalPMT,59338.94
+ABM,PMT,Mode,SchoolBus,,,Run061,TotalPMT,97078.18
+ABM,PMT,Mode,Taxi,,,Run061,TotalPMT,8618.07
+ABM,PMT,Mode,Transit,,,Run061,TotalPMT,180074.04
+ABM,PMT,Mode,Walk,,,Run061,TotalPMT,136210.95
+ABM,PMT,Mode,Auto,,,Run061,PMTRatio,0.921092755482064
+ABM,PMT,Mode,Bike,,,Run061,PMTRatio,0.0097279782618196
+ABM,PMT,Mode,SchoolBus,,,Run061,PMTRatio,0.0159149190183885
+ABM,PMT,Mode,Taxi,,,Run061,PMTRatio,0.0014128394881816
+ABM,PMT,Mode,Transit,,,Run061,PMTRatio,0.029521193783341
+ABM,PMT,Mode,Walk,,,Run061,PMTRatio,0.0223303139662051
+ABM,VMT,,,,,Run061,VMT,28276549.907973
+ABM,CongestedVMT,,,,,Run061,CongestedVMT,1561349.339268
+ABM,CongestedVMTPCT,,,,,Run061,CongestedVMTPCT,0.0552171090302553
+ABM,VMT,,,,,Run061,VMTPerCapita,20.109027201683
+ABM,VHT,,,,,Run061,VHT,654199.045103
+ABM,VHT,,,,,Run061,VHTPerCapita,0.465237323368858
+ABM,CommuteTime,Mode,Auto,,,Run061,CommuteTime,20.1197739892459
+ABM,CommuteTime,Mode,Bike,,,Run061,CommuteTime,25.9772923777019
+ABM,CommuteTime,Mode,Taxi,,,Run061,CommuteTime,5.48507936507936
+ABM,CommuteTime,Mode,Transit,,,Run061,CommuteTime,63.0140914359305
+ABM,CommuteTime,Mode,Walk,,,Run061,CommuteTime,21.7816929133858
+ABM,AverageTransitTravelTime,,,,,Run061,AverageTransitTravelTime,48.0333299567538
+ABM,HighwayLaneMiles,LINKCLASS,freeway,,,Run061,HighwayLaneMiles,612.284471
+ABM,HighwayLaneMiles,LINKCLASS,parkway,,,Run061,HighwayLaneMiles,43.900421
+ABM,HighwayLaneMiles,LINKCLASS,major_arterial,,,Run061,HighwayLaneMiles,1824.467818
+ABM,HighwayLaneMiles,LINKCLASS,minor_arterial,,,Run061,HighwayLaneMiles,2215.157417
+ABM,HighwayLaneMiles,LINKCLASS,collector,,,Run061,HighwayLaneMiles,280.388718
+ABM,HighwayLaneMiles,LINKCLASS,ramp,,,Run061,HighwayLaneMiles,103.731637
+ABM,HighwayLaneMiles,LINKCLASS,frontage_road,,,Run061,HighwayLaneMiles,172.542579
+ABM,TransitMilesPerFrequency,Mode,Rural,TimePeriod,PK,Run061,TransitMilesPerFrequency,137.828019
+ABM,TransitMilesPerFrequency,Mode,Regular,TimePeriod,PK,Run061,TransitMilesPerFrequency,1320.315456
+ABM,TransitMilesPerFrequency,Mode,Express,TimePeriod,PK,Run061,TransitMilesPerFrequency,260.770737
+ABM,TransitMilesPerFrequency,Mode,CatTran,TimePeriod,PK,Run061,TransitMilesPerFrequency,45.570595
+ABM,TransitMilesPerFrequency,Mode,BRT,TimePeriod,PK,Run061,TransitMilesPerFrequency,87.267907
+ABM,TransitMilesPerFrequency,Mode,Rural,TimePeriod,OP,Run061,TransitMilesPerFrequency,137.318824
+ABM,TransitMilesPerFrequency,Mode,Regular,TimePeriod,OP,Run061,TransitMilesPerFrequency,1066.446501
+ABM,TransitMilesPerFrequency,Mode,Express,TimePeriod,OP,Run061,TransitMilesPerFrequency,0.0
+ABM,TransitMilesPerFrequency,Mode,CatTran,TimePeriod,OP,Run061,TransitMilesPerFrequency,45.570595
+ABM,TransitMilesPerFrequency,Mode,BRT,TimePeriod,OP,Run061,TransitMilesPerFrequency,87.267907
+ABM,TransitQuarterMilePopEmp,Type,Total,,,Run061,Population,1406162.0
+ABM,TransitQuarterMilePopEmp,Type,Number,,,Run061,Population,546011.942969
+ABM,TransitQuarterMilePopEmp,Type,Percentage,,,Run061,Population,0.388299
+ABM,TransitQuarterMilePopEmp,Type,TotalDISADV,,,Run061,Population,667207.0
+ABM,TransitQuarterMilePopEmp,Type,NumberDISADV,,,Run061,Population,384090.092549
+ABM,TransitQuarterMilePopEmp,Type,PercentageDISADV,,,Run061,Population,0.575669
+ABM,TransitQuarterMilePopEmp,Type,Total,,,Run061,Jobs,508054.0
+ABM,TransitQuarterMilePopEmp,Type,Number,,,Run061,Jobs,310864.243936
+ABM,TransitQuarterMilePopEmp,Type,Percentage,,,Run061,Jobs,0.611872
+ABM,TransitQuarterMilePopEmp,Type,TotalDISADV,,,Run061,Jobs,154544.0
+ABM,TransitQuarterMilePopEmp,Type,NumberDISADV,,,Run061,Jobs,112741.29189
+ABM,TransitQuarterMilePopEmp,Type,PercentageDISADV,,,Run061,Jobs,0.729509
+ABM,AverageTransitSpeed,TimePeriod,PK,,,Run061,AverageTransitSpeed,13.202103
+ABM,AverageTransitSpeed,TimePeriod,OP,,,Run061,AverageTransitSpeed,13.078175
+ABM,AverageTransitSpeed,TimePeriod,DY,,,Run061,AverageTransitSpeed,13.201386
+ABM,TravelTimeIndex,TimePeriod,AM,,,Run061,TravelTimeIndex,1.320437
+ABM,TravelTimeIndex,TimePeriod,PM,,,Run061,TravelTimeIndex,1.588603
+ABM,Speed,,,,,Run061,Speed,43.2231598618751
+ABM,Accessibility,,,,,Run061,Auto Accessibility Off Peak,84356.3796836426
+ABM,Accessibility,,,,,Run061,Auto Accessibility Peak,57042.4149024153
+ABM,Accessibility,,,,,Run061,Auto Accessibility Off Peak within 30 Minutes,405109.718242384
+ABM,Accessibility,,,,,Run061,Auto Accessibility Peak within 30 Minutes,296677.466984295
+ABM,Accessibility,,,,,Run061,Auto Accessibility Percentage Off Peak within 30 Minutes,0.797375314912162
+ABM,Accessibility,,,,,Run061,Auto Accessibility Percentage Peak within 30 Minutes,0.583948688494323
+ABM,Accessibility,,,,,Run061,Transit Accessibility Off Peak,1673.53616038282
+ABM,Accessibility,,,,,Run061,Transit Accessibility Peak,1682.11325552981
+ABM,Accessibility,,,,,Run061,Transit Accessibility Off Peak within 45 Minutes,30731.3569372246
+ABM,Accessibility,,,,,Run061,Transit Accessibility Off Peak within 60 Minutes,70081.8130249545
+ABM,Accessibility,,,,,Run061,Transit Accessibility Off Peak within 90 Minutes,137323.325695916
+ABM,Accessibility,,,,,Run061,Transit Accessibility Percentage Off Peak within 45 Minutes,0.0604883672547104
+ABM,Accessibility,,,,,Run061,Transit Accessibility Percentage Off Peak within 60 Minutes,0.137941661762243
+ABM,Accessibility,,,,,Run061,Transit Accessibility Percentage Off Peak within 90 Minutes,0.270292775366234
+ABM,Accessibility,,,,,Run061,Transit Accessibility Peak within 45 Minutes,29951.2986632509
+ABM,Accessibility,,,,,Run061,Transit Accessibility Peak within 60 Minutes,65717.874160098
+ABM,Accessibility,,,,,Run061,Transit Accessibility Peak within 90 Minutes,135170.458300382
+ABM,Accessibility,,,,,Run061,Transit Accessibility Percetange Peak within 45 Minutes,0.0589529826814688
+ABM,Accessibility,,,,,Run061,Transit Accessibility Percentage Peak within 60 Minutes,0.129352143984887
+ABM,Accessibility,,,,,Run061,Transit Accessibility Percentage Peak within 90 Minutes,0.26605529786279
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Auto,Disadvantage Zone,0,Run061,CommuteTime,21.0788019275507
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Auto,Disadvantage Zone,1,Run061,CommuteTime,17.2134145647302
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Bike,Disadvantage Zone,0,Run061,CommuteTime,25.1836024844721
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Bike,Disadvantage Zone,1,Run061,CommuteTime,25.5985754985755
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Taxi,Disadvantage Zone,0,Run061,CommuteTime,8.53111111111111
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Taxi,Disadvantage Zone,1,Run061,CommuteTime,4.94
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Transit,Disadvantage Zone,0,Run061,CommuteTime,63.9988884138521
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Transit,Disadvantage Zone,1,Run061,CommuteTime,60.3618572505655
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Walk,Disadvantage Zone,0,Run061,CommuteTime,22.729496124031
+ABM,Disadvantage Zone Home to Work Commute Time,Mode,Walk,Disadvantage Zone,1,Run061,CommuteTime,23.7691570881226
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Auto,Disadvantage Zone,0,Run061,CommuteTime,23.5289833362879
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Auto,Disadvantage Zone,1,Run061,CommuteTime,19.0102533394749
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Bike,Disadvantage Zone,0,Run061,CommuteTime,26.2935087719298
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Bike,Disadvantage Zone,1,Run061,CommuteTime,26.8652964426877
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Taxi,Disadvantage Zone,0,Run061,CommuteTime,9.8225
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Taxi,Disadvantage Zone,1,Run061,CommuteTime,4.14409090909091
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Transit,Disadvantage Zone,0,Run061,CommuteTime,70.4219726027397
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Transit,Disadvantage Zone,1,Run061,CommuteTime,68.1397134935305
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Walk,Disadvantage Zone,0,Run061,CommuteTime,18.7830113636364
+ABM,Disadvantage Zone Work to Home Commute Time,Mode,Walk,Disadvantage Zone,1,Run061,CommuteTime,19.3797133757962
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Auto,Disadvantage Zone,0,Run061,Average Travel Time per Household,19.3809805419237
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Bike,Disadvantage Zone,0,Run061,Average Travel Time per Household,0.443663140407493
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,SchoolBus,Disadvantage Zone,0,Run061,Average Travel Time per Household,0.84616821656578
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Taxi,Disadvantage Zone,0,Run061,Average Travel Time per Household,0.0386491690376622
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Transit,Disadvantage Zone,0,Run061,Average Travel Time per Household,1.52054221008612
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Walk,Disadvantage Zone,0,Run061,Average Travel Time per Household,4.14815845251962
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Auto,Disadvantage Zone,1,Run061,Average Travel Time per Household,17.6746312612478
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Bike,Disadvantage Zone,1,Run061,Average Travel Time per Household,0.597857116076785
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,SchoolBus,Disadvantage Zone,1,Run061,Average Travel Time per Household,1.06952785692861
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Taxi,Disadvantage Zone,1,Run061,Average Travel Time per Household,0.0335813587282544
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Transit,Disadvantage Zone,1,Run061,Average Travel Time per Household,2.83104315386923
+ABM,Disadvantage Zone Average Travel Time per Household,Mode,Walk,Disadvantage Zone,1,Run061,Average Travel Time per Household,5.36059301889622
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Auto,Disadvantage Zone,0,Run061,Average Travel Time per Person,8.24106396194626
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Bike,Disadvantage Zone,0,Run061,Average Travel Time per Person,0.188651771758767
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,SchoolBus,Disadvantage Zone,0,Run061,Average Travel Time per Person,0.359802559019155
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Taxi,Disadvantage Zone,0,Run061,Average Travel Time per Person,0.0164341671685015
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Transit,Disadvantage Zone,0,Run061,Average Travel Time per Person,0.646555811923595
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Walk,Disadvantage Zone,0,Run061,Average Travel Time per Person,1.76385498440365
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Auto,Disadvantage Zone,1,Run061,Average Travel Time per Person,7.06553985494757
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Bike,Disadvantage Zone,1,Run061,Average Travel Time per Person,0.23899696795747
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,SchoolBus,Disadvantage Zone,1,Run061,Average Travel Time per Person,0.42755017558269
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Taxi,Disadvantage Zone,1,Run061,Average Travel Time per Person,0.0134243495646778
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Transit,Disadvantage Zone,1,Run061,Average Travel Time per Person,1.1317264806874
+ABM,Disadvantage Zone Average Travel Time per Person,Mode,Walk,Disadvantage Zone,1,Run061,Average Travel Time per Person,2.14292921087459
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Auto,Disadvantage Zone,0,Run061,Average Travel Distance per Household,10.3069575830485
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Bike,Disadvantage Zone,0,Run061,Average Travel Distance per Household,0.0876415436613264
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,SchoolBus,Disadvantage Zone,0,Run061,Average Travel Distance per Household,0.151676086998033
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Taxi,Disadvantage Zone,0,Run061,Average Travel Distance per Household,0.0167427294773626
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Transit,Disadvantage Zone,0,Run061,Average Travel Distance per Household,0.257986849726619
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Walk,Disadvantage Zone,0,Run061,Average Travel Distance per Household,0.206164270210748
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Auto,Disadvantage Zone,1,Run061,Average Travel Distance per Household,8.9228849730054
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Bike,Disadvantage Zone,1,Run061,Average Travel Distance per Household,0.119228929214157
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,SchoolBus,Disadvantage Zone,1,Run061,Average Travel Distance per Household,0.185285805338932
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Taxi,Disadvantage Zone,1,Run061,Average Travel Distance per Household,0.0125872450509898
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Transit,Disadvantage Zone,1,Run061,Average Travel Distance per Household,0.371216856628674
+ABM,Disadvantage Zone Average Travel Distance per Household,Mode,Walk,Disadvantage Zone,1,Run061,Average Travel Distance per Household,0.267813624775045
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Auto,Disadvantage Zone,0,Run061,Average Travel Distance per Person,4.38266250312942
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Bike,Disadvantage Zone,0,Run061,Average Travel Distance per Person,0.0372664099979024
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,SchoolBus,Disadvantage Zone,0,Run061,Average Travel Distance per Person,0.0644947933230034
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Taxi,Disadvantage Zone,0,Run061,Average Travel Distance per Person,0.0071192427143736
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Transit,Disadvantage Zone,0,Run061,Average Travel Distance per Person,0.109699616350116
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Walk,Disadvantage Zone,0,Run061,Average Travel Distance per Person,0.0876639308212273
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Auto,Disadvantage Zone,1,Run061,Average Travel Distance per Person,3.5669767853155
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Bike,Disadvantage Zone,1,Run061,Average Travel Distance per Person,0.0476624795603164
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,SchoolBus,Disadvantage Zone,1,Run061,Average Travel Distance per Person,0.0740691119847364
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Taxi,Disadvantage Zone,1,Run061,Average Travel Distance per Person,0.005031826704456
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Transit,Disadvantage Zone,1,Run061,Average Travel Distance per Person,0.148396164908342
+ABM,Disadvantage Zone Average Travel Distance per Person,Mode,Walk,Disadvantage Zone,1,Run061,Average Travel Distance per Person,0.107060102786691
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Auto,Income Quartile,Q1,Run061,Commute Time,17.8385048933939
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Bike,Income Quartile,Q1,Run061,Commute Time,25.7068402777778
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q1,Run061,Commute Time,7.81818181818182
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Transit,Income Quartile,Q1,Run061,Commute Time,61.9020541760722
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Walk,Income Quartile,Q1,Run061,Commute Time,22.2483828382838
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Auto,Income Quartile,Q2,Run061,Commute Time,19.6296318545277
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Bike,Income Quartile,Q2,Run061,Commute Time,25.7386666666667
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q2,Run061,Commute Time,4.28357142857143
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Transit,Income Quartile,Q2,Run061,Commute Time,63.3572213893053
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Walk,Income Quartile,Q2,Run061,Commute Time,22.3287709497207
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Auto,Income Quartile,Q3,Run061,Commute Time,20.1590941712431
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Bike,Income Quartile,Q3,Run061,Commute Time,26.0514155251142
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q3,Run061,Commute Time,4.29294117647059
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Transit,Income Quartile,Q3,Run061,Commute Time,61.758296055307
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Walk,Income Quartile,Q3,Run061,Commute Time,23.2930303030303
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Auto,Income Quartile,Q4,Run061,Commute Time,21.1948480083857
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Bike,Income Quartile,Q4,Run061,Commute Time,27.213431372549
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q4,Run061,Commute Time,4.061
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Transit,Income Quartile,Q4,Run061,Commute Time,64.9772975708502
+ABM,Average Commute Time by Mode by Income Quartile,Mode,Walk,Income Quartile,Q4,Run061,Commute Time,18.7852688172043
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Auto,Income Quartile,Q1,Run061,Commute Distance,11.3284804264243
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Bike,Income Quartile,Q1,Run061,Commute Distance,5.15524305555556
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q1,Run061,Commute Distance,3.74318181818182
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Transit,Income Quartile,Q1,Run061,Commute Distance,9.26146726862302
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Walk,Income Quartile,Q1,Run061,Commute Distance,1.1139603960396
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Auto,Income Quartile,Q2,Run061,Commute Distance,12.5569281974266
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Bike,Income Quartile,Q2,Run061,Commute Distance,5.16851851851852
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q2,Run061,Commute Distance,1.39214285714286
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Transit,Income Quartile,Q2,Run061,Commute Distance,9.98619190404798
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Walk,Income Quartile,Q2,Run061,Commute Distance,1.12
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Auto,Income Quartile,Q3,Run061,Commute Distance,13.04884111333
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Bike,Income Quartile,Q3,Run061,Commute Distance,5.22433789954338
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q3,Run061,Commute Distance,1.34647058823529
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Transit,Income Quartile,Q3,Run061,Commute Distance,10.2556567710451
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Walk,Income Quartile,Q3,Run061,Commute Distance,1.16684848484848
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Auto,Income Quartile,Q4,Run061,Commute Distance,13.687034416492
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Bike,Income Quartile,Q4,Run061,Commute Distance,5.45960784313726
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Taxi,Income Quartile,Q4,Run061,Commute Distance,1.408
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Transit,Income Quartile,Q4,Run061,Commute Distance,11.7128744939271
+ABM,Average Commute Distance by Mode by Income Quartile,Mode,Walk,Income Quartile,Q4,Run061,Commute Distance,0.943046594982079
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Off Peak,68690.8002177728
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Off Peak,101874.9430351
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Peak,46582.1707385715
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Peak,68739.9362392578
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Off Peak within 30 Minutes,373337.626796803
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Off Peak within 30 Minutes,440639.932621645
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Peak within 30 Minutes,257966.030386111
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Peak within 30 Minutes,339967.838460736
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak,1021.63596986393
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak,2402.5455667258
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak,1027.37388873896
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak,2414.29766663368
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak within 45 Minutes,15410.5578783559
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak within 45 Minutes,47864.3579534015
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak within 45 Minutes,15281.0485629756
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak within 45 Minutes,46356.801333824
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak within 60 Minutes,35908.5841217506
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak within 60 Minutes,108297.18046597
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak within 60 Minutes,34060.5871348308
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak within 60 Minutes,101119.70461876
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak within 90 Minutes,74289.006196225
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak within 90 Minutes,207813.582496006
+ABM,JobAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak within 90 Minutes,73830.8498913506
+ABM,JobAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak within 90 Minutes,203765.547183522
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Off Peak,26707.7936878122
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Off Peak,39253.172506268
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Peak,18069.958471208
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Peak,26460.8215193331
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Off Peak within 30 Minutes,141118.82529485
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Off Peak within 30 Minutes,166298.047247278
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Auto Accessibility Peak within 30 Minutes,97685.8133052638
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Auto Accessibility Peak within 30 Minutes,126196.027633339
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak,458.64287368456
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak,1079.1018785774
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak,470.207330519499
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak,1112.0726194702
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak within 45 Minutes,7289.52514975452
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak within 45 Minutes,21749.3532898465
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak within 45 Minutes,7464.37341681898
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak within 45 Minutes,21665.859249361
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak within 60 Minutes,16512.0097071156
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak within 60 Minutes,48520.6223883447
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak within 60 Minutes,15976.3753422303
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak within 60 Minutes,45842.4591014667
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Off Peak within 90 Minutes,33078.5566743065
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Off Peak within 90 Minutes,90285.611552435
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,0,,,Run061,Transit Accessibility Peak within 90 Minutes,33033.3683308108
+ABM,BasicNeedAccessibilityEquity,DisAdvantageZone,1,,,Run061,Transit Accessibility Peak within 90 Minutes,88375.2096018691

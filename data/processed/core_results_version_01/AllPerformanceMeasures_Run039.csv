@@ -1,0 +1,248 @@
+"source","measures","dim1","dim1_value","dim2","dim2_value","Scenario","measure_name","measure_value"
+"ABM","Mode Share","Mode","Auto","","","Run039","Trips",967975
+"ABM","Mode Share","Mode","Bike","","","Run039","Trips",21503
+"ABM","Mode Share","Mode","SchoolBus","","","Run039","Trips",14316
+"ABM","Mode Share","Mode","Taxi","","","Run039","Trips",2754
+"ABM","Mode Share","Mode","Transit","","","Run039","Trips",23323
+"ABM","Mode Share","Mode","Walk","","","Run039","Trips",136320
+"ABM","Mode Share","Mode","Auto","","","Run039","Share",0.830031272750347
+"ABM","Mode Share","Mode","Bike","","","Run039","Share",0.0184386605624636
+"ABM","Mode Share","Mode","SchoolBus","","","Run039","Share",0.0122758621872403
+"ABM","Mode Share","Mode","Taxi","","","Run039","Share",0.00236153425982536
+"ABM","Mode Share","Mode","Transit","","","Run039","Share",0.0199992968561754
+"ABM","Mode Share","Mode","Walk","","","Run039","Share",0.116893373383948
+"ABM","PMT","Mode","Auto","","","Run039","TotalPMT",4716730.67
+"ABM","PMT","Mode","Bike","","","Run039","TotalPMT",51017.32
+"ABM","PMT","Mode","SchoolBus","","","Run039","TotalPMT",78344.12
+"ABM","PMT","Mode","Taxi","","","Run039","TotalPMT",5819.11
+"ABM","PMT","Mode","Transit","","","Run039","TotalPMT",175158.49
+"ABM","PMT","Mode","Walk","","","Run039","TotalPMT",110652.04
+"ABM","PMT","Mode","Auto","","","Run039","PMTRatio",0.918058801062942
+"ABM","PMT","Mode","Bike","","","Run039","PMTRatio",0.00992994998220758
+"ABM","PMT","Mode","SchoolBus","","","Run039","PMTRatio",0.0152488055625044
+"ABM","PMT","Mode","Taxi","","","Run039","PMTRatio",0.00113262459182419
+"ABM","PMT","Mode","Transit","","","Run039","PMTRatio",0.0340926384345357
+"ABM","PMT","Mode","Walk","","","Run039","PMTRatio",0.0215371803659861
+"ABM","VMT","","","","","Run039","VMT",25084440.428996
+"ABM","CongestedVMT","","","","","Run039","CongestedVMT",1010506.201661
+"ABM","CongestedVMTPCT","","","","","Run039","CongestedVMTPCT",0.0402841835169231
+"ABM","VMT","","","","","Run039","VMTPerCapita",22.0110583610947
+"ABM","VHT","","","","","Run039","VHT",574994.559325
+"ABM","VHT","","","","","Run039","VHTPerCapita",0.504545390934243
+"ABM","CommuteTime","Mode","Auto","","","Run039","CommuteTime",20.030035141295
+"ABM","CommuteTime","Mode","Bike","","","Run039","CommuteTime",25.437299382716
+"ABM","CommuteTime","Mode","Taxi","","","Run039","CommuteTime",4.71558139534884
+"ABM","CommuteTime","Mode","Transit","","","Run039","CommuteTime",62.848473656341
+"ABM","CommuteTime","Mode","Walk","","","Run039","CommuteTime",21.5811141304348
+"ABM","AverageTransitTravelTime","","","","","Run039","AverageTransitTravelTime",47.8268773313896
+"ABM","HighwayLaneMiles","LINKCLASS","freeway","","","Run039","HighwayLaneMiles",612.284471
+"ABM","HighwayLaneMiles","LINKCLASS","parkway","","","Run039","HighwayLaneMiles",43.900421
+"ABM","HighwayLaneMiles","LINKCLASS","major_arterial","","","Run039","HighwayLaneMiles",1824.467818
+"ABM","HighwayLaneMiles","LINKCLASS","minor_arterial","","","Run039","HighwayLaneMiles",2215.157417
+"ABM","HighwayLaneMiles","LINKCLASS","collector","","","Run039","HighwayLaneMiles",280.388718
+"ABM","HighwayLaneMiles","LINKCLASS","ramp","","","Run039","HighwayLaneMiles",103.731637
+"ABM","HighwayLaneMiles","LINKCLASS","frontage_road","","","Run039","HighwayLaneMiles",172.542579
+"ABM","TransitMilesPerFrequency","Mode","Rural","TimePeriod","PK","Run039","TransitMilesPerFrequency",175.504665
+"ABM","TransitMilesPerFrequency","Mode","Regular","TimePeriod","PK","Run039","TransitMilesPerFrequency",1681.23668
+"ABM","TransitMilesPerFrequency","Mode","Express","TimePeriod","PK","Run039","TransitMilesPerFrequency",332.054984
+"ABM","TransitMilesPerFrequency","Mode","CatTran","TimePeriod","PK","Run039","TransitMilesPerFrequency",58.027766
+"ABM","TransitMilesPerFrequency","Mode","BRT","TimePeriod","PK","Run039","TransitMilesPerFrequency",111.123448
+"ABM","TransitMilesPerFrequency","Mode","Rural","TimePeriod","OP","Run039","TransitMilesPerFrequency",174.856276
+"ABM","TransitMilesPerFrequency","Mode","Regular","TimePeriod","OP","Run039","TransitMilesPerFrequency",1357.970137
+"ABM","TransitMilesPerFrequency","Mode","Express","TimePeriod","OP","Run039","TransitMilesPerFrequency",0
+"ABM","TransitMilesPerFrequency","Mode","CatTran","TimePeriod","OP","Run039","TransitMilesPerFrequency",58.027766
+"ABM","TransitMilesPerFrequency","Mode","BRT","TimePeriod","OP","Run039","TransitMilesPerFrequency",111.123448
+"ABM","TransitQuarterMilePopEmp","Type","Total","","","Run039","Population",1139629
+"ABM","TransitQuarterMilePopEmp","Type","Number","","","Run039","Population",460536.463043
+"ABM","TransitQuarterMilePopEmp","Type","Percentage","","","Run039","Population",0.404111
+"ABM","TransitQuarterMilePopEmp","Type","TotalDISADV","","","Run039","Population",567575
+"ABM","TransitQuarterMilePopEmp","Type","NumberDISADV","","","Run039","Population",327770.720397
+"ABM","TransitQuarterMilePopEmp","Type","PercentageDISADV","","","Run039","Population",0.577493
+"ABM","TransitQuarterMilePopEmp","Type","Total","","","Run039","Jobs",455023
+"ABM","TransitQuarterMilePopEmp","Type","Number","","","Run039","Jobs",292268.248828
+"ABM","TransitQuarterMilePopEmp","Type","Percentage","","","Run039","Jobs",0.642315
+"ABM","TransitQuarterMilePopEmp","Type","TotalDISADV","","","Run039","Jobs",144284
+"ABM","TransitQuarterMilePopEmp","Type","NumberDISADV","","","Run039","Jobs",108316.384122
+"ABM","TransitQuarterMilePopEmp","Type","PercentageDISADV","","","Run039","Jobs",0.750717
+"ABM","AverageTransitSpeed","TimePeriod","PK","","","Run039","AverageTransitSpeed",13.5811
+"ABM","AverageTransitSpeed","TimePeriod","OP","","","Run039","AverageTransitSpeed",14.640666
+"ABM","AverageTransitSpeed","TimePeriod","DY","","","Run039","AverageTransitSpeed",13.591132
+"ABM","TravelTimeIndex","TimePeriod","AM","","","Run039","TravelTimeIndex",1.291614
+"ABM","TravelTimeIndex","TimePeriod","PM","","","Run039","TravelTimeIndex",1.519544
+"ABM","Speed","","","","","Run039","Speed",43.6255265761875
+"ABM","Accessibility","","","","","Run039","Auto Accessibility Off Peak",76272.0176042854
+"ABM","Accessibility","","","","","Run039","Auto Accessibility Peak",54728.9673343289
+"ABM","Accessibility","","","","","Run039","Auto Accessibility Off Peak within 30 Minutes",363182.865098651
+"ABM","Accessibility","","","","","Run039","Auto Accessibility Peak within 30 Minutes",281348.36666589
+"ABM","Accessibility","","","","","Run039","Auto Accessibility Percentage Off Peak within 30 Minutes",0.798163752378782
+"ABM","Accessibility","","","","","Run039","Auto Accessibility Percentage Peak within 30 Minutes",0.618316803031694
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Off Peak",2024.95416079836
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Peak",2027.93778741761
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Off Peak within 45 Minutes",39633.8178225477
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Off Peak within 60 Minutes",84807.1869198199
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Off Peak within 90 Minutes",148292.948560086
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Percentage Off Peak within 45 Minutes",0.0871028889145113
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Percentage Off Peak within 60 Minutes",0.186380000395189
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Percentage Off Peak within 90 Minutes",0.325902094092137
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Peak within 45 Minutes",38187.3544636758
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Peak within 60 Minutes",78866.7183453325
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Peak within 90 Minutes",148000.862047783
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Percetange Peak within 45 Minutes",0.0839240092559624
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Percentage Peak within 60 Minutes",0.173324685445203
+"ABM","Accessibility","","","","","Run039","Transit Accessibility Percentage Peak within 90 Minutes",0.325260178161945
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Auto","Disadvantage Zone","0","Run039","CommuteTime",21.1037621919139
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Auto","Disadvantage Zone","1","Run039","CommuteTime",17.4178971150504
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Bike","Disadvantage Zone","0","Run039","CommuteTime",26.2677319587629
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Bike","Disadvantage Zone","1","Run039","CommuteTime",24.1743262411348
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Taxi","Disadvantage Zone","0","Run039","CommuteTime",3.395
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Taxi","Disadvantage Zone","1","Run039","CommuteTime",4.84888888888889
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Transit","Disadvantage Zone","0","Run039","CommuteTime",64.7394055784179
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Transit","Disadvantage Zone","1","Run039","CommuteTime",59.4350885072655
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Walk","Disadvantage Zone","0","Run039","CommuteTime",19.7186956521739
+"ABM","Disadvantage Zone Home to Work Commute Time","Mode","Walk","Disadvantage Zone","1","Run039","CommuteTime",23.6809745762712
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Auto","Disadvantage Zone","0","Run039","CommuteTime",23.3786106796636
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Auto","Disadvantage Zone","1","Run039","CommuteTime",18.9482062032734
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Bike","Disadvantage Zone","0","Run039","CommuteTime",28.9353521126761
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Bike","Disadvantage Zone","1","Run039","CommuteTime",25.574898989899
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Taxi","Disadvantage Zone","0","Run039","CommuteTime",3.3325
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Taxi","Disadvantage Zone","1","Run039","CommuteTime",5.45266666666667
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Transit","Disadvantage Zone","0","Run039","CommuteTime",72.9689791183295
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Transit","Disadvantage Zone","1","Run039","CommuteTime",66.6905734144222
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Walk","Disadvantage Zone","0","Run039","CommuteTime",17.460534351145
+"ABM","Disadvantage Zone Work to Home Commute Time","Mode","Walk","Disadvantage Zone","1","Run039","CommuteTime",21.3572448979592
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Auto","Disadvantage Zone","0","Run039","Average Travel Time per Household",19.8793546838994
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Bike","Disadvantage Zone","0","Run039","Average Travel Time per Household",0.453091005374187
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","SchoolBus","Disadvantage Zone","0","Run039","Average Travel Time per Household",0.835267612975827
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Taxi","Disadvantage Zone","0","Run039","Average Travel Time per Household",0.0314492100069918
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Transit","Disadvantage Zone","0","Run039","Average Travel Time per Household",1.77528039683755
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Walk","Disadvantage Zone","0","Run039","Average Travel Time per Household",4.2646450099499
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Auto","Disadvantage Zone","1","Run039","Average Travel Time per Household",17.969299806461
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Bike","Disadvantage Zone","1","Run039","Average Travel Time per Household",0.62969575151975
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","SchoolBus","Disadvantage Zone","1","Run039","Average Travel Time per Household",1.04366845995788
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Taxi","Disadvantage Zone","1","Run039","Average Travel Time per Household",0.0286310736727229
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Transit","Disadvantage Zone","1","Run039","Average Travel Time per Household",2.92594130736898
+"ABM","Disadvantage Zone Average Travel Time per Household","Mode","Walk","Disadvantage Zone","1","Run039","Average Travel Time per Household",5.05981976144395
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Auto","Disadvantage Zone","0","Run039","Average Travel Time per Person",8.39965929789845
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Bike","Disadvantage Zone","0","Run039","Average Travel Time per Person",0.191445353061075
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","SchoolBus","Disadvantage Zone","0","Run039","Average Travel Time per Person",0.352927118768508
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Taxi","Disadvantage Zone","0","Run039","Average Travel Time per Person",0.0132882909655382
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Transit","Disadvantage Zone","0","Run039","Average Travel Time per Person",0.750112401976037
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Walk","Disadvantage Zone","0","Run039","Average Travel Time per Person",1.80194808532062
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Auto","Disadvantage Zone","1","Run039","Average Travel Time per Person",7.42668794432454
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Bike","Disadvantage Zone","1","Run039","Average Travel Time per Person",0.260252424789675
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","SchoolBus","Disadvantage Zone","1","Run039","Average Travel Time per Person",0.431346799982381
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Taxi","Disadvantage Zone","1","Run039","Average Travel Time per Person",0.0118331850416245
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Transit","Disadvantage Zone","1","Run039","Average Travel Time per Person",1.20928768885169
+"ABM","Disadvantage Zone Average Travel Time per Person","Mode","Walk","Disadvantage Zone","1","Run039","Average Travel Time per Person",2.09121684358895
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Auto","Disadvantage Zone","0","Run039","Average Travel Distance per Household",10.6474302369358
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Bike","Disadvantage Zone","0","Run039","Average Travel Distance per Household",0.0892289552399353
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","SchoolBus","Disadvantage Zone","0","Run039","Average Travel Distance per Household",0.147965669746102
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Taxi","Disadvantage Zone","0","Run039","Average Travel Distance per Household",0.0131548833110616
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Transit","Disadvantage Zone","0","Run039","Average Travel Distance per Household",0.314022613782575
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Walk","Disadvantage Zone","0","Run039","Average Travel Distance per Household",0.212720066525727
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Auto","Disadvantage Zone","1","Run039","Average Travel Distance per Household",9.13610679603373
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Bike","Disadvantage Zone","1","Run039","Average Travel Distance per Household",0.125543316082497
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","SchoolBus","Disadvantage Zone","1","Run039","Average Travel Distance per Household",0.181513995344832
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Taxi","Disadvantage Zone","1","Run039","Average Travel Distance per Household",0.01125182242154
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Transit","Disadvantage Zone","1","Run039","Average Travel Distance per Household",0.423124802837436
+"ABM","Disadvantage Zone Average Travel Distance per Household","Mode","Walk","Disadvantage Zone","1","Run039","Average Travel Distance per Household",0.252518394734374
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Auto","Disadvantage Zone","0","Run039","Average Travel Distance per Person",4.49887774580721
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Bike","Disadvantage Zone","0","Run039","Average Travel Distance per Person",0.0377020700842927
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","SchoolBus","Disadvantage Zone","0","Run039","Average Travel Distance per Person",0.062520199142039
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Taxi","Disadvantage Zone","0","Run039","Average Travel Distance per Person",0.00555835637894325
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Transit","Disadvantage Zone","0","Run039","Average Travel Distance per Person",0.1326845367745
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Walk","Disadvantage Zone","0","Run039","Average Travel Distance per Person",0.0898809902561646
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Auto","Disadvantage Zone","1","Run039","Average Travel Distance per Person",3.77594090648813
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Bike","Disadvantage Zone","1","Run039","Average Travel Distance per Person",0.0518868871955248
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","SchoolBus","Disadvantage Zone","1","Run039","Average Travel Distance per Person",0.0750194952208959
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Taxi","Disadvantage Zone","1","Run039","Average Travel Distance per Person",0.00465036338809849
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Transit","Disadvantage Zone","1","Run039","Average Travel Distance per Person",0.17487692375457
+"ABM","Disadvantage Zone Average Travel Distance per Person","Mode","Walk","Disadvantage Zone","1","Run039","Average Travel Distance per Person",0.104365519975334
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Auto","Income Quartile","Q1","Run039","Commute Time",17.2036547594466
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Bike","Income Quartile","Q1","Run039","Commute Time",25.3894711538462
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q1","Run039","Commute Time",4.24166666666667
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Transit","Income Quartile","Q1","Run039","Commute Time",59.8398612181958
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Walk","Income Quartile","Q1","Run039","Commute Time",22.0316974169742
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Auto","Income Quartile","Q2","Run039","Commute Time",19.0683564222619
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Bike","Income Quartile","Q2","Run039","Commute Time",25.1749302325581
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q2","Run039","Commute Time",6.592
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Transit","Income Quartile","Q2","Run039","Commute Time",61.9103378378378
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Walk","Income Quartile","Q2","Run039","Commute Time",21.1157239057239
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Auto","Income Quartile","Q3","Run039","Commute Time",20.1482955392313
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Bike","Income Quartile","Q3","Run039","Commute Time",25.4337106918239
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q3","Run039","Commute Time",4.06352941176471
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Transit","Income Quartile","Q3","Run039","Commute Time",63.2053138252757
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Walk","Income Quartile","Q3","Run039","Commute Time",23.6834862385321
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Auto","Income Quartile","Q4","Run039","Commute Time",21.4721894578017
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Bike","Income Quartile","Q4","Run039","Commute Time",26.4513636363636
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q4","Run039","Commute Time",4.2175
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Transit","Income Quartile","Q4","Run039","Commute Time",65.3121265822785
+"ABM","Average Commute Time by Mode by Income Quartile","Mode","Walk","Income Quartile","Q4","Run039","Commute Time",18.3688516746411
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Auto","Income Quartile","Q1","Run039","Commute Distance",10.5712884575676
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Bike","Income Quartile","Q1","Run039","Commute Distance",5.08384615384615
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q1","Run039","Commute Distance",1.35
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Transit","Income Quartile","Q1","Run039","Commute Distance",9.53463377023901
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Walk","Income Quartile","Q1","Run039","Commute Distance",1.10686346863469
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Auto","Income Quartile","Q2","Run039","Commute Distance",12.0532876381716
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Bike","Income Quartile","Q2","Run039","Commute Distance",5.05683720930233
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q2","Run039","Commute Distance",2.172
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Transit","Income Quartile","Q2","Run039","Commute Distance",10.3638565488565
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Walk","Income Quartile","Q2","Run039","Commute Distance",1.05367003367003
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Auto","Income Quartile","Q3","Run039","Commute Distance",12.9303126441676
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Bike","Income Quartile","Q3","Run039","Commute Distance",5.09754716981132
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q3","Run039","Commute Distance",1.36705882352941
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Transit","Income Quartile","Q3","Run039","Commute Distance",10.9831933842239
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Walk","Income Quartile","Q3","Run039","Commute Distance",1.18831804281346
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Auto","Income Quartile","Q4","Run039","Commute Distance",13.8474733492964
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Bike","Income Quartile","Q4","Run039","Commute Distance",5.33060606060606
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Taxi","Income Quartile","Q4","Run039","Commute Distance",1.3125
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Transit","Income Quartile","Q4","Run039","Commute Distance",12.368329113924
+"ABM","Average Commute Distance by Mode by Income Quartile","Mode","Walk","Income Quartile","Q4","Run039","Commute Distance",0.918516746411483
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Off Peak",61681.0962202257
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Off Peak",91162.6894158485
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Peak",44322.9094836416
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Peak",65348.8033424928
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Off Peak within 30 Minutes",335978.778874653
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Off Peak within 30 Minutes",390945.821887491
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Peak within 30 Minutes",246592.127606839
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Peak within 30 Minutes",316818.624890841
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak",1172.27974737525
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak",2895.14559821313
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak",1176.62545650254
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak",2896.73916021113
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak within 45 Minutes",20462.949277071
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak within 45 Minutes",59198.5255157288
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak within 45 Minutes",19843.6714487963
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak within 45 Minutes",56907.8832363362
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak within 60 Minutes",44774.487308651
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak within 60 Minutes",125662.303327482
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak within 60 Minutes",41812.3935849826
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak within 60 Minutes",116682.273284052
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak within 90 Minutes",83255.4888309189
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak within 90 Minutes",214666.51351828
+"ABM","JobAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak within 90 Minutes",83591.5379057253
+"ABM","JobAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak within 90 Minutes",213733.387236477
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Off Peak",23854.9813660804
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Off Peak",34311.5831527615
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Peak",17137.8362954975
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Peak",24392.8188049179
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Off Peak within 30 Minutes",124822.218027114
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Off Peak within 30 Minutes",145240.410392732
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Auto Accessibility Peak within 30 Minutes",91861.205696535
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Auto Accessibility Peak within 30 Minutes",114938.556196263
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak",546.180453953068
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak",1257.4945626874
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak",561.493489830771
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak",1296.91414984315
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak within 45 Minutes",9360.60956633865
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak within 45 Minutes",25497.991466725
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak within 45 Minutes",9395.34870331862
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak within 45 Minutes",25241.8399746958
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak within 60 Minutes",19728.2042621918
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak within 60 Minutes",53422.5499644678
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak within 60 Minutes",18871.4959414119
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak within 60 Minutes",50140.6483716809
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Off Peak within 90 Minutes",35419.514437061
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Off Peak within 90 Minutes",90102.8121862229
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","0","","","Run039","Transit Accessibility Peak within 90 Minutes",35555.3737663564
+"ABM","BasicNeedAccessibilityEquity","DisAdvantageZone","1","","","Run039","Transit Accessibility Peak within 90 Minutes",88753.6872220901
