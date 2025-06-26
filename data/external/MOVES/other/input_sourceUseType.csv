@@ -1,0 +1,14 @@
+sourceTypeID,sourceTypeName,HPMSVtypeID,HPMSVtypeName
+11,Motorcycle,10,Motorcycles
+21,Passenger Car,20,Passenger Cars
+31,Passenger Truck,30,Other 2 axle-4 tire vehicles
+32,Light Commercial Truck,30,Other 2 axle-4 tire vehicles
+41,Intercity Bus,40,Buses
+42,Transit Bus,40,Buses
+43,School Bus,40,Buses
+54,Motor Home,40,Buses
+51,Refuse Truck,50,Single Unit Trucks
+52,Single Unit Short-haul Truck,50,Single Unit Trucks
+53,Single Unit Long-haul Truck,50,Single Unit Trucks
+61,Combination Short-haul Truck,60,Combination Trucks
+62,Combination Long-haul Truck,60,Combination Trucks

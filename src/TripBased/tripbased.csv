@@ -1,0 +1,107 @@
+source,measures,dim1,dim1_value,dim2,dim2_value,Scenario,measure_name,measure_value
+TripBased,Mode Share,Mode,Auto,,,2018,Trips,3195611.365
+TripBased,Mode Share,Mode,Transit,,,2018,Trips,60033.72943
+TripBased,Mode Share,Mode,Walk,,,2018,Trips,474647.989
+TripBased,Mode Share,Mode,Bike,,,2018,Trips,90460.56375
+TripBased,Mode Share,Mode,Auto,,,2018,Share,0.836382
+TripBased,Mode Share,Mode,Transit,,,2018,Share,0.015713
+TripBased,Mode Share,Mode,Walk,,,2018,Share,0.124229
+TripBased,Mode Share,Mode,Bike,,,2018,Share,0.023676
+TripBased,Mode Share,Mode,Auto,,,2045,Trips,3793258.832
+TripBased,Mode Share,Mode,Transit,,,2045,Trips,68088.48939
+TripBased,Mode Share,Mode,Walk,,,2045,Trips,582757.678
+TripBased,Mode Share,Mode,Bike,,,2045,Trips,113264.646
+TripBased,Mode Share,Mode,Auto,,,2045,Share,0.832335
+TripBased,Mode Share,Mode,Transit,,,2045,Share,0.01494
+TripBased,Mode Share,Mode,Walk,,,2045,Share,0.127871
+TripBased,Mode Share,Mode,Bike,,,2045,Share,0.024853
+TripBased,PMT,Mode,Auto,,,2018,TotalPMT,20900169.44
+TripBased,PMT,Mode,Transit,,,2018,TotalPMT,399698.7549
+TripBased,PMT,Mode,Walk,,,2018,TotalPMT,604909.0481
+TripBased,PMT,Mode,Bike,,,2018,TotalPMT,488401.1572
+TripBased,PMT,Mode,Auto,,,2018,PMTRatio,0.93332751
+TripBased,PMT,Mode,Transit,,,2018,PMTRatio,0.01784913
+TripBased,PMT,Mode,Walk,,,2018,PMTRatio,0.027013095
+TripBased,PMT,Mode,Bike,,,2018,PMTRatio,0.021810265
+TripBased,PMT,Mode,Auto,,,2045,TotalPMT,25965573.26
+TripBased,PMT,Mode,Transit,,,2045,TotalPMT,448278.5872
+TripBased,PMT,Mode,Walk,,,2045,TotalPMT,724554.6209
+TripBased,PMT,Mode,Bike,,,2045,TotalPMT,603161.503
+TripBased,PMT,Mode,Auto,,,2045,PMTRatio,0.935980738
+TripBased,PMT,Mode,Transit,,,2045,PMTRatio,0.016159093
+TripBased,PMT,Mode,Walk,,,2045,PMTRatio,0.026118013
+TripBased,PMT,Mode,Bike,,,2045,PMTRatio,0.021742156
+TripBased,VMT,,,,,2018,VMT,21608633.22
+TripBased,VMT,,,,,2018,VMTPerCapita,20.83713818
+TripBased,VMT,,,,,2045,VMT,27640529.56
+TripBased,VMT,,,,,2045,VMTPerCapita,22.58821321
+TripBased,VHT,,,,,2018,VHT,556797.3757
+TripBased,VHT,,,,,2018,VHTPerCapita,0.536917987
+TripBased,VHT,,,,,2045,VHT,737224.5228
+TripBased,VHT,,,,,2045,VHTPerCapita,0.602469814
+TripBased,CommuteTime,Mode,Auto,,,2018,CommuteTime,18.649314
+TripBased,CommuteTime,Mode,Transit,,,2018,CommuteTime,63.856019
+TripBased,CommuteTime,Mode,Walk,,,2018,CommuteTime,21.753702
+TripBased,CommuteTime,Mode,Bike,,,2018,CommuteTime,25.834205
+TripBased,CommuteTime,Mode,Auto,,,2045,CommuteTime,19.880664
+TripBased,CommuteTime,Mode,Transit,,,2045,CommuteTime,64.163496
+TripBased,CommuteTime,Mode,Walk,,,2045,CommuteTime,21.731722
+TripBased,CommuteTime,Mode,Bike,,,2045,CommuteTime,26.193627
+TripBased,TransitQuarterMilePopEmp,Type,Total,,,2018,Population,1037025
+TripBased,TransitQuarterMilePopEmp,Type,Number,,,2018,Population,421284.1261
+TripBased,TransitQuarterMilePopEmp,Type,Percentage,,,2018,Population,0.406243
+TripBased,TransitQuarterMilePopEmp,Type,Total,,,2018,Jobs,395263
+TripBased,TransitQuarterMilePopEmp,Type,Number,,,2018,Jobs,228140.4478
+TripBased,TransitQuarterMilePopEmp,Type,Percentage,,,2018,Jobs,0.577186
+TripBased,TransitQuarterMilePopEmp,Type,Total,,,2045,Population,1223670.474
+TripBased,TransitQuarterMilePopEmp,Type,Number,,,2045,Population,470248.8002
+TripBased,TransitQuarterMilePopEmp,Type,Percentage,,,2045,Population,0.384294
+TripBased,TransitQuarterMilePopEmp,Type,Total,,,2045,Jobs,506289.0614
+TripBased,TransitQuarterMilePopEmp,Type,Number,,,2045,Jobs,285051.53
+TripBased,TransitQuarterMilePopEmp,Type,Percentage,,,2045,Jobs,0.563021
+TripBased,AverageTransitTravelTime,,,,,2018,AverageTransitTravelTime,55.112111
+TripBased,AverageTransitTravelTime,,,,,2045,AverageTransitTravelTime,55.200506
+TripBased,AverageTransitSpeed,TimePeriod,PK,,,2018,AverageTransitSpeed,14.188059
+TripBased,AverageTransitSpeed,TimePeriod,OP,,,2018,AverageTransitSpeed,13.535044
+TripBased,AverageTransitSpeed,TimePeriod,DY,,,2018,AverageTransitSpeed,13.741756
+TripBased,AverageTransitSpeed,TimePeriod,PK,,,2045,AverageTransitSpeed,13.526242
+TripBased,AverageTransitSpeed,TimePeriod,OP,,,2045,AverageTransitSpeed,13.33849
+TripBased,AverageTransitSpeed,TimePeriod,DY,,,2045,AverageTransitSpeed,13.399446
+TripBased,TravelTimeIndex,TimePeriod,AM,,,2018,TravelTimeIndex,1.473877
+TripBased,TravelTimeIndex,TimePeriod,PM,,,2018,TravelTimeIndex,1.485371
+TripBased,TravelTimeIndex,TimePeriod,AM,,,2045,TravelTimeIndex,1.552445
+TripBased,TravelTimeIndex,TimePeriod,PM,,,2045,TravelTimeIndex,1.566351
+TripBased,HighwayLaneMiles,LINKCLASS,freeway,,,2018,HighwayLaneMiles,501.177879
+TripBased,HighwayLaneMiles,LINKCLASS,parkway,,,2018,HighwayLaneMiles,29.929521
+TripBased,HighwayLaneMiles,LINKCLASS,major_arterial,,,2018,HighwayLaneMiles,1608.45787
+TripBased,HighwayLaneMiles,LINKCLASS,minor_arterial,,,2018,HighwayLaneMiles,2142.088977
+TripBased,HighwayLaneMiles,LINKCLASS,collector,,,2018,HighwayLaneMiles,212.841873
+TripBased,HighwayLaneMiles,LINKCLASS,ramp,,,2018,HighwayLaneMiles,84.298606
+TripBased,HighwayLaneMiles,LINKCLASS,frontage_road,,,2018,HighwayLaneMiles,169.883893
+TripBased,HighwayLaneMiles,LINKCLASS,freeway,,,2045,HighwayLaneMiles,652.240178
+TripBased,HighwayLaneMiles,LINKCLASS,parkway,,,2045,HighwayLaneMiles,50.16376
+TripBased,HighwayLaneMiles,LINKCLASS,major_arterial,,,2045,HighwayLaneMiles,1805.476164
+TripBased,HighwayLaneMiles,LINKCLASS,minor_arterial,,,2045,HighwayLaneMiles,2241.871043
+TripBased,HighwayLaneMiles,LINKCLASS,collector,,,2045,HighwayLaneMiles,223.074686
+TripBased,HighwayLaneMiles,LINKCLASS,ramp,,,2045,HighwayLaneMiles,94.45709
+TripBased,HighwayLaneMiles,LINKCLASS,frontage_road,,,2045,HighwayLaneMiles,167.576057
+TripBased,TransitMilesPerFrequency,Mode,Rural,TimePeriod,OP,2018,TransitMilesPerFrequency,188.786757
+TripBased,TransitMilesPerFrequency,Mode,Regular,TimePeriod,OP,2018,TransitMilesPerFrequency,1535.393879
+TripBased,TransitMilesPerFrequency,Mode,Express,TimePeriod,OP,2018,TransitMilesPerFrequency,0
+TripBased,TransitMilesPerFrequency,Mode,CatTran,TimePeriod,OP,2018,TransitMilesPerFrequency,55.220845
+TripBased,TransitMilesPerFrequency,Mode,BRT,TimePeriod,OP,2018,TransitMilesPerFrequency,0
+TripBased,TransitMilesPerFrequency,Mode,Rural,TimePeriod,PK,2018,TransitMilesPerFrequency,188.786757
+TripBased,TransitMilesPerFrequency,Mode,Regular,TimePeriod,PK,2018,TransitMilesPerFrequency,1667.423954
+TripBased,TransitMilesPerFrequency,Mode,Express,TimePeriod,PK,2018,TransitMilesPerFrequency,341.804283
+TripBased,TransitMilesPerFrequency,Mode,CatTran,TimePeriod,PK,2018,TransitMilesPerFrequency,55.220845
+TripBased,TransitMilesPerFrequency,Mode,BRT,TimePeriod,PK,2018,TransitMilesPerFrequency,0
+TripBased,TransitMilesPerFrequency,Mode,Rural,TimePeriod,OP,2045,TransitMilesPerFrequency,188.786757
+TripBased,TransitMilesPerFrequency,Mode,Regular,TimePeriod,OP,2045,TransitMilesPerFrequency,1535.393879
+TripBased,TransitMilesPerFrequency,Mode,Express,TimePeriod,OP,2045,TransitMilesPerFrequency,0
+TripBased,TransitMilesPerFrequency,Mode,CatTran,TimePeriod,OP,2045,TransitMilesPerFrequency,55.220845
+TripBased,TransitMilesPerFrequency,Mode,BRT,TimePeriod,OP,2045,TransitMilesPerFrequency,0
+TripBased,TransitMilesPerFrequency,Mode,Rural,TimePeriod,PK,2045,TransitMilesPerFrequency,188.786757
+TripBased,TransitMilesPerFrequency,Mode,Regular,TimePeriod,PK,2045,TransitMilesPerFrequency,1667.423954
+TripBased,TransitMilesPerFrequency,Mode,Express,TimePeriod,PK,2045,TransitMilesPerFrequency,341.804283
+TripBased,TransitMilesPerFrequency,Mode,CatTran,TimePeriod,PK,2045,TransitMilesPerFrequency,55.220845
+TripBased,TransitMilesPerFrequency,Mode,BRT,TimePeriod,PK,2045,TransitMilesPerFrequency,0

@@ -1,0 +1,7 @@
+"countyID","fuelYearID","modelYearGroupID","sourceBinFuelTypeID","fuelSupplyFuelTypeID","usageFraction"
+4019,2055,0,1,1,1.0
+4019,2055,0,2,2,1.0
+4019,2055,0,3,3,1.0
+4019,2055,0,5,1,0.982134
+4019,2055,0,5,5,0.017866
+4019,2055,0,9,9,1.0

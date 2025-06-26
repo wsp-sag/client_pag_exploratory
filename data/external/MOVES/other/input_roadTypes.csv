@@ -1,0 +1,6 @@
+roadTypeID,roadDesc,PAG description
+1,Off-Network,
+2,Rural Restricted Access,Freeways Parkways and Ramps in Rural Area
+3,Rural Unrestricted Access,Arterials and local collectors in Rural Area
+4,Urban Restricted Access,Freeways Parkways and Ramps in Urban and Suburban Area
+5,Urban Unrestricted Access,Arterials and local collectors in Urban and suburban Area

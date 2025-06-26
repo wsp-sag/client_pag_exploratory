@@ -1,0 +1,16 @@
+####################################
+#   PAG AUTOMATION CONFIGURATION   #
+####################################
+
+transcad_path = "C:/Program Files/TransCAD 6.0"
+r_program_path = "D:/PAG/R/R-4.3.3/bin/Rscript.exe"
+moves4_path = "C:/Users/Public/EPA/MOVES/MOVES4.0"
+
+abm_model_path = "D:/PAG/client_pag_abm_development/models/abm"
+moves_input_path = "D:/PAG/client_pag_exploratory/data/external/MOVES" 
+
+out_dir = "D:/PAG/client_pag_exploratory/data/interim"
+src_dir = "D:/PAG/client_pag_exploratory/src"
+scenario_year = 2055
+scenario_name = "test"
+ev_share_percentage = 80
