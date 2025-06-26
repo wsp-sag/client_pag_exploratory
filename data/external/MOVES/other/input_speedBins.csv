@@ -1,0 +1,17 @@
+avgSpeedBinID,avgBinSpeed,avgSpeedBinDesc,opModeIDTirewear,opModeIDRunning
+1,2.5,speed < 2.5mph,401,301
+2,5,2.5mph <= speed < 7.5mph,402,302
+3,10,7.5mph <= speed < 12.5mph,403,303
+4,15,12.5mph <= speed < 17.5mph,404,304
+5,20,17.5mph <= speed <22.5mph,405,305
+6,25,22.5mph <= speed < 27.5mph,406,306
+7,30,27.5mph <= speed < 32.5mph,407,307
+8,35,32.5mph <= speed < 37.5mph,408,308
+9,40,37.5mph <= speed < 42.5mph,409,309
+10,45,42.5mph <= speed < 47.5mph,410,310
+11,50,47.5mph <= speed < 52.5mph,411,311
+12,55,52.5mph <= speed < 57.5mph,412,312
+13,60,57.5mph <= speed < 62.5mph,413,313
+14,65,62.5mph <= speed < 67.5mph,414,314
+15,70,67.5mph <= speed < 72.5mph,415,315
+16,75,72.5mph <= speed,416,316

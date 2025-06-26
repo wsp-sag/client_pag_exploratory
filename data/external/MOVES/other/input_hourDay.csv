@@ -1,0 +1,25 @@
+hourDayID,dayID,dayName,hourID,hourname
+15,5,Weekdays,0,Hour beginning at 12:00 midnight
+25,5,Weekdays,1,Hour beginning at 1:00 AM
+35,5,Weekdays,2,Hour beginning at 2:00 AM
+45,5,Weekdays,3,Hour beginning at 3:00 AM
+55,5,Weekdays,4,Hour beginning at 4:00 AM
+65,5,Weekdays,5,Hour beginning at 5:00 AM
+75,5,Weekdays,6,Hour beginning at 6:00 AM
+85,5,Weekdays,7,Hour beginning at 7:00 AM
+95,5,Weekdays,8,Hour beginning at 8:00 AM
+105,5,Weekdays,9,Hour beginning at 9:00 AM
+115,5,Weekdays,10,Hour beginning at 10:00 AM
+125,5,Weekdays,11,Hour beginning at 11:00 AM
+135,5,Weekdays,12,Hour beginning at 12:00 Noon
+145,5,Weekdays,13,Hour beginning at 1:00 PM
+155,5,Weekdays,14,Hour beginning at 2:00 PM
+165,5,Weekdays,15,Hour beginning at 3:00 PM
+175,5,Weekdays,16,Hour beginning at 4:00 PM
+185,5,Weekdays,17,Hour beginning at 5:00 PM
+195,5,Weekdays,18,Hour beginning at 6:00 PM
+205,5,Weekdays,19,Hour beginning at 7:00 PM
+215,5,Weekdays,20,Hour beginning at 8:00 PM
+225,5,Weekdays,21,Hour beginning at 9:00 PM
+235,5,Weekdays,22,Hour beginning at 10:00 PM
+245,5,Weekdays,23,Hour beginning at 11:00 PM
